@@ -1,0 +1,11 @@
+Allez dans "Paramètres" dans "Paramètres graphiques"
+
+Pour obliger une application à choisir la carte dédiée :
+Descendez la fenêtre jusqu'à "Ecrans multiples"
+en dessous du bouton "Détecter"
+Cliquez sur "paramètre graphiques"
+
+Cliquez sur le bouton "Parcourir"
+Choisissez votre exe, et "OK"
+Il sera ajouté dans la liste
+En dessous de lui vous aurez le bouton "Option" où vous pourrez choisir la carte graphique que vous voulez.

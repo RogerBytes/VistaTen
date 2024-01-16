@@ -1,0 +1,20 @@
+Copier fichier
+copy "sourcepathfile" "destinationpath"
+ par exemple
+copy "%USERPROFILE%\Desktop\TBarIconBlanker\joyful.url" "%USERPROFILE%\Desktop\VirtualBox"
+
+Copier dossier et son contenu
+xcopy  /e /s "sourcepathfolder" "destinationpath\foldername\"
+ par exemple
+xcopy  /e /s "%USERPROFILE%\Desktop\TBarIconBlanker" "%USERPROFILE%\Desktop\VirtualBox\TBarIconBlanker\"
+
+Copier contenu d'un dossier
+xcopy /e "sourcepath" "destinationpath"
+ par exemple
+xcopy /e "%USERPROFILE%\Desktop\TBarIconBlanker" "%USERPROFILE%\Desktop\VirtualBox"
+
+Dossier à supprimer
+rmdir /S /Q NOMDOSSIER
+
+Fichier à supprimer
+del NOMFICHIER* /a

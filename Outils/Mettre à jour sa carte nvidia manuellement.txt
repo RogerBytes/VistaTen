@@ -1,0 +1,57 @@
+Ouvrir le gestionnaire de périphérique
+
+Dans "Cartes graphiques" noter le nom du modèle.
+
+Par exemple chez moi c'est 
+NVIDIA GeForce 840M
+
+Dans le navi allez sur 
+https://www.nvidia.com/download/index.aspx
+
+Chez moi je choisis ->
+
+Production Type : GeForce
+
+Product Series : GeForce 800M Series (Notebooks)
+
+Product : GeForce 840M
+
+Operating System : Windows 10 64-bit
+
+Download Type : Game Ready Driver (GRD)
+
+Language : English (US)
+
+-> puis "Search"
+J'arrive sur la page 
+
+
+Sur la page chez moi est affiché
+
+Version:	527.37  WHQL
+Release Date:	2022.12.1
+Operating System:	Windows 10 64-bit, Windows 11
+Language:	English (US)
+File Size:	813.13 MB
+
+
+-> Cliquer sur "Download"
+
+Une fois le dl fini, lancer le fichier
+527.37-notebook-win10-win11-64bit-international-dch-whql.exe
+
+Cliquer sur "OK"
+
+Un fois la progression terminée, un menu s'ouvre.
+Dans la navbar à gauche on est sur "Vérification du système"
+
+Ne laissez pas le choix par défaut (GeForce Experience et pilote graphique NVIDIA)
+
+Mais choisissez "Pilote graphique NVIDIA" et ensuite cliquez sur
+"ACCEPTER ET CONTINUER"
+
+Gardez l'option "Expresse (recommandée)"
+
+et cliquez sur "SUIVANT"
+
+Une fois l'installation terminée, cliquez sur "FERMER"

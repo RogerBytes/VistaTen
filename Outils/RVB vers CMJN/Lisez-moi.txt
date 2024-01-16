@@ -1,0 +1,111 @@
+CMJN et RVB
+
+
+Si vous devez imprimer des documents chez un imprimeur professionnel vous devrez avoir une 
+colorimétrie en CMJN (cyan-magenta-jaune-noir) au lieu du RVB (rouge-vert-bleu)
+Le CMNJ est la quadrichromie (usage professionnel plus qualitatif) alors que le RVB est la trichromie
+(démocratisé plus recemment pour internet et à usage personnel). La trichromie est une addition des lumières alors que la
+quadrichromie en est une soustraction.
+
+Pour une meilleure exlication du CMNJ et RVB :
+https://www.youtube.com/watch?v=qEZY9TGeed8
+
+
+
+
+Installation des plugins
+------------------------
+#Pour Windows10 X64 Copiez separate dans
+%AppData%\GIMP\2.10\plug-ins
+Ouvez gimp 
+Allez dans menu "Image>Propriété de l'image" (ou 'Alt+Enter') et vérifiez que votre image est en 
+colorimétrie RVB (ou sRGB dans l'onglet "profil de couleur")
+
+#Pour Ubuntu
+sudo apt install y liblcms2-2 
+
+
+Ensuite :
+
+et allez dans le menu "Edition>Préférences>Gestion des couleurs"
+
+Dans "Affichage avec gestion des couleurs"
+Mode de rendu > Perceptuel
+
+Dans "Epreuve sur écran"
+Mode de rendu Perceptuel
+
+Descendez jusqu'à Profils préférés
+Profil CMJN > choisir un profil de couleur sur le disque
+Allez dans le dossier "\Colorimétrie gimp\Profiles ICC\CMYK" et pointez
+"USWebUncoated.icc"
+
+Faites de même pour
+Profil RVB > choisir un profil de couleur sur le disque
+Allez dans le dossier "\Colorimétrie gimp\Profiles ICC\RGB" et pointez
+"sRGB_v4_ICC_preference.icc"
+
+Cliquez sur "Valider"
+
+
+
+
+Pour convertir la colorimétrie d'une image avec gimp et le plugin separate+
+---------------------------------------------------------------------------
+
+Dans le menu "Image>Separate" choisissez l'option "Separate"
+Dans "Source color Space" choisissez "sRGB IEC61966-2.1" (enfin le même que dans le profil de l'image)
+C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+et cliquez sur "Valider"
+
+Cliquez sur "Valider"
+
+L'image passe en noir et blanc à l'écran vour verrez apparaître vos 4 couleurs divisées en 4 calques
+
+Dans le menu "Image>Separate" choisissez l'option "Export"
+Pour "Embed color profile" "Own profile : U.S. Web Uncoated v2
+
+Cela exportera votre image au format tif
+
+
+
+
+Pour convertir la colorimétrie d'une image avec le logiciel Cyan
+----------------------------------------------------------------
+
+Dans Gimp mettez dans le menu "Image > Précision" choisissez "32 bits"
+Exportez en ".png" (jpeg non supporté) votre image.
+Ouvrez le logiciel Cyan et glissez votre ".png" dans la fenêtre
+Dans Input vous pouvez modifier (si vous le souhaitez) vers "sRGB IEC6966-2.1"
+Dans Output mettez "Iso COated v2"
+'CTRL+S' pour exporter votre image en CMJN, mettez ".tif" comme extension de fichier à la fin du nom
+
+
+
+
+Pour extraire le cyan, le magenta et le jaune d'une image
+---------------------------------------------------------
+Ouvrez votre image, à côté de l'onglet "Calques" (boîte à outil en bas de droite) allez dans l'onglet "Canaux"
+Activez uniquement le rouge
+Dans la boîte d'outils en haut à droite cliquez sur la flèche et choisissez "Ajouter un onglet>Images"
+
+Glissez l'image rouge dans vos calques
+
+Refaites l'opération avec le vert et le bleu
+Glissez aussi votre canal alpha directement dans les calques
+Réactivez tous les canaux
+Dupliquez 2 fois chaque calque r, v et b
+
+Pour extraire les couleurs Activer uniquement les calques de la couleur
+Séléctionnez le deuxième et dans mode (au dessus de l'opacité du calque) "Asombrissement Linéaire"
+Séléctionnez le premier et dans mode "Différence"
+Dans l'onglet "Images" de la boîte à outil en haut à droite glissez votre couleur dans les calques
+
+Mettez le calque du canal alpha en bas des calques
+Dans les calques activez uniquement le cyan, le magenta, le jaune et l'alpha.
+
+Mettez les 3 calques de couleur C M J en mode "Différence"
+Les 3 calques superposés vous donneront la couleur d'origine.
+
+
+

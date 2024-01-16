@@ -1,0 +1,12 @@
+'Clic droit' sur le bureau "Propriétés graphiques"
+
+Aller dans "Options et assistance"
+Onglet "Préferences" et désactivez "Message d'avertisselent sur les profils"
+et cliquez en bas à droite sur "Appliquer"
+
+Fermez l'application
+
+allez dans : 
+C:\Program Files\Outils\cru-1.5.2
+
+Lancez CRU.exe

@@ -1,0 +1,11 @@
+﻿1: Lancer Setup.exe
+puis aller dans :
+   
+%LOCALAPPDATA%\StartAllBack
+
+2: renommer StartAllBackX64.dll en StartAllBackX64.bak
+
+3: Copiez "StartAllBackX64.dll" dans
+%LOCALAPPDATA%\StartAllBack
+
+Redémmarrer

@@ -1,0 +1,56 @@
+Jeux libres
+pin town
+Mega Glest
+Lugaru HD
+0.A.D
+teeworlds
+EDuke32
+Xonotic
+Warzone 2100
+froggato
+Shattered Pixel Dungeon
+Red Eclipse
+OpenSpades
+Armagetron Advanced
+Widelands
+Freeciv
+FreeCol
+SuperTuxKart
+StepMania
+simsu
+minetest
+frozen bubble
+Speed Dreams
+OpenTTD
+EzQuake
+BZFlag
+OpenRA
+OpenMW
+OpenArena
+Tremulous
+Tanks of Freedom
+GzDoom
+AssaultCube
+Hedgewars
+Albion Online
+Aqueducts
+Beneath A Steel Sky
+ScummVM
+ResidualVM
+nexuiz
+quetoo
+warsow
+wyrmsun
+Cave Story
+DDNet
+Dragon's Apprentice
+CorsixTH
+Eternal Lands
+flare
+flood
+Frozen Bubble
+funguloids
+Sauerbraten
+Aisleriot Solitaire
+sudo apt install -y picmi 
+sudo apt install -y gnome-mines
