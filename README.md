@@ -34,7 +34,7 @@ Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces éta
 - **Open Source** : Tous (ou prou) les logiciels installés sont open source, garantissant transparence et respect de la vie privée.
 - **Thème Préconfiguré** : Profitez d'un thème sobre et fonctionnel, conçu pour une expérience utilisateur optimale.
 
-### Liste de logiciel
+### Liste de logiciels
 
 Une liste non exhaustive des logiciels inclus dans ce script :
 
@@ -394,8 +394,6 @@ Ensuite dans l'explorateur de fichier on va cacher la 2e barre d'état :
 'Alt' le menu apparaît,on va dans "Outils/Options des dossiers..." allez dans l'onglet "Affichage",
 et décochez "Afficher la barre d'état".
 
-___________________________________________________________________________
-
 14 Derniers réglages
 
 Dans l'explorateur de fichiers clic droit sur "Accès rapide" dans la navbar à gauche et "Options"
@@ -416,8 +414,6 @@ Visionneuse de photo = ImageGlass
 Lecteur vidéo = mpv
 
 Naviguateur web = Vivaldi
-
-___________________________________________________________________________
 
 15 Le theme
 
@@ -449,8 +445,6 @@ Dans l'encadré "Installation"
 Cochez tout sauf "Hook explorer(!)", puis "Install"
 
 l'install est faite proprement
-
-___________________________________________________________________________
 
 15 Finalité finale
 
