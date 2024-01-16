@@ -157,7 +157,6 @@ Ensuite dans un powershell non admin le refaire.
 Le faire au moins 2x de suite pour être sûr d'avoir tout récupéré, en ce moment se relance seulement portmaster.
 
 Facultatif, si vous voulez exporter votre propre liste d'app :
-
 ```powershell
 winget export "C:\Program Files\Outils\winget.txt"
 ```
@@ -205,10 +204,10 @@ Cliquez sur "Save settings"
 Redémmarez
 
 après reboot faire une màj avec
-
 ```batch
 clink update
 ```
+
 
 Win+Alt+P et aller dans "General/Confirm"
 et décochez en bas "Show`...brought ConEmu OnTop. Revert ?` confirmation box.
@@ -373,13 +372,13 @@ Allez dans
 
 'CTRL+F' et copiez
 
-```bash
+```
 <style resid="FolderBandStyle">
 ```
 
 Juste en dessous de la ligne copiez :
 
-```bash
+```
 <Element padding="rect(0rp,0rp,0rp,-35rp)"/>
 ```
 
@@ -436,28 +435,34 @@ Naviguateur web = Vivaldi
 
 ### 15. Le theme
 
-[deviantart.com/niivu](https://www.deviantart.com/niivu/art/Installing-Windows-Themes-UPDATED-708835586)
-[deviantart.com/niivu/art/](https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960)
+https://www.deviantart.com/niivu/art/Installing-Windows-Themes-UPDATED-708835586
+https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960
 
 le theme ARC X marche que pour windows 10
 
 pour voir la version 'Win+R' puis 'winver'
 
-Sinon pour le theme j'utilise "ThemeTool.exe" de https://github.com/namazso/SecureUxTheme
+sinon pour le theme j'utilise "ThemeTool.exe" de https://github.com/namazso/SecureUxTheme
 
-Allez dans
-`C:\Program Files\Outils\theme\ARC X`
+Allez dans C:\Program Files\Outils\theme\ARC X
 Dans BIB3 for Windows copiez les fichiers dans
 Windows/Resources/Themes
 
 Lancez "ThemeTool.exe" en admin via clic droit,
 Cochez tout sauf "ignore color"
-choisisissez "Arc Dark" puis "Patch & Apply"
+chosisissez "Arc Dark" puis "Patch & Apply"
 Dans l'encadré "Installation"
 Cochez tout sauf "Hook explorer(!)", puis "Install"
 
 Ca redémarre
-L'install est faite proprement
+
+Relancez "ThemeTool.exe" en admin via clic droit,
+Cochez tout sauf "ignore color"
+chosisissez "Arc Dark" puis "Patch & Apply"
+Dans l'encadré "Installation"
+Cochez tout sauf "Hook explorer(!)", puis "Install"
+
+l'install est faite proprement
 
 ### 16. Finalité finale
 
