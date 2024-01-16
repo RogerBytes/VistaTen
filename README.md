@@ -86,38 +86,33 @@ C:\Program Files (x86)\Foxit Software\Foxit PDF Reader
 Dans jdownloader faire l'importation des options : dans 'Fichier choisissez "Export/Import" et "Importez les paramètres" et choisissez "JD2-Dark-Theme.jd2backup",
 Pensez à corriger le chemin de téléchargements.
 
-
-__________________________________________________________
+___________________________________________________________________________
 
 Attention JE VOUS D2CONSEILLE de Déplacer le dossier utilisateur sur une autre partition, si vous devez passer par un shell ça va foutre en l'air vos liens système et niquer possiblement d'autre processus côté back, ewindows c'est de la merde.
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 2 Chocolatey
 
 Ouvrez powershell en administrateur avec 'Win+X' Puis 'A' :
 Get-ExecutionPolicy
-puis : 
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+puis :
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('<https://chocolatey.org/install.ps1>'))
 
 Ensuite lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 3 Debloater et shutup10
 
 Ouvrez powershell en administrateur 'WIN+X' puis 'A'
 
-puis 
+puis
 Set-ExecutionPolicy Unrestricted -Force
 
 puis
 cd "C:\Program Files\Outils\Windows10Debloater"
-#copiez le chemin où se trouve Windows10Debloater
+copiez le chemin où se trouve Windows10Debloater
 
 puis
 ./Windows10DebloaterGUI.ps1
@@ -131,17 +126,14 @@ Chez moi
 "Disable Telemetry/Tasks"
 "Enable dark theme"
 
-Fermez la fenêtre et le powershell, 
+Fermez la fenêtre et le powershell,
 dans
 C:\Program Files\Outils
 lancez "OSU10.exe"
 Aller dans "Actions" et choisir "Appliquer tous les paramètres recommandés", puis "OUI"
 Fermez et choisissez "Redémarrer le système".
 
-
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 4 Winget
 Installez le depuis le microsoft store (recherche "winget" et choisissez "Programme d'installation d'application"
@@ -154,26 +146,21 @@ winget import --accept-package-agreements --accept-source-agreements "C:\Program
 Ensuite dans un powershell non admin le refaire
 Le faire au moins 2x de suite pour être sûr d'avoir tout récupéré, en ce moment se relance seulement portmaster
 
-
 Facultatif, si vous voulez exporter votre propre liste d'app :
 winget export "C:\Program Files\Outils\winget.txt"
 
-
 et la radio à installer depuis
-https://apps.microsoft.com/store/detail/9WZDNCRDR0C2?hl=fr-fr&gl=FR
-
-
+<https://apps.microsoft.com/store/detail/9WZDNCRDR0C2?hl=fr-fr&gl=FR>
 
 dans
 C:\Program Files\Outils
-Lancez Mes_Drivers_3.0.4.exe et faites les installations de driverss
+Lancez Mes_Drivers_3.0.4.exe et faites les installations de drivers
 
 Et lancez imageGlass depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
-__________________________________________________________
+
+___________________________________________________________________________
 
 5 Lecteur PDF
-
-
 
 Pour Foxit reader ouvrez-le, avec la commande :
 "C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\FoxitPDFReader.exe"
@@ -192,9 +179,7 @@ Cocher "Désactiver toutes les fonctionnalités qui exigent une connexion à int
 Cliquer sur "OK" et quitter
 Allez en haut à gauche, Fichier, Apparence, et choisir "sombre"
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 6 Cmder
 
@@ -213,31 +198,26 @@ clink update
 Win+Alt+P et aller dans "General/Confirm"
 et décochez en bas "Show`...brought ConEmu OnTop. Revert ?` confirmation box.
 
-Ensuite 
+Ensuite
 dans "General" aller à "Choose your startup task" et mettez
 {Shells::cmd (Admin)}
 
-
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 7 Démmarage rapide
 
 Je recommande aussi de désactiver le démarrage rapide de windows, ou plutôt c'est indispensable si vous comptez avoir plusieur OS sur votre ordinateur.
- 
+
 Allez dans les options d'arrêt avec la commande
 %windir%\system32\control.exe /name Microsoft.PowerOptions /page pageGlobalSettings
 
-ou en allant dans 
+ou en allant dans
 Panneau de configuration\Matériel et audio\Options d’alimentation\Paramètres système
 
 Cliquez sur "Modifier les paramètres actuellement non disponibles"
 Décochez le bouton "Activer le démarrage rapide (recommandé)" puis sur "Enregistrer les modifications"
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 8 Icone et souris
 
@@ -260,38 +240,33 @@ Choisissez "7TSP Kora"
 Ensuite cliquez sur "Démarrage" en bas à droite.
 L'ordi redémmarre avec les nouvelles icones.
 
-__________________________________________________________
+___________________________________________________________________________
 
 9 Menu démarrer
 
 Et faites un backup de menu démarrer start menu
 
-
 C:\ProgramData\Microsoft\Windows\Start Menu
 
-
 %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu
-dans 
+dans
 C:\Program Files\Outils\Backup Menu demarrer
-
 
 Ensuite pouvez nettoyer la liste des applications sans craintes dans les deux dossiers.
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 10 Explorateur de fichiers
 Pour revenir à un affichage plus conventionnel, sans groupes, cliquez du bouton droit sur une zone inoccupée de l’explorateur de fichiers, pointez Regrouper par et cliquez sur (aucun) :
 
-Pour avoir un menu à l'ancienne et des fenêtres d'explorateur plus sobres, dans "StartIsBack" 
+Pour avoir un menu à l'ancienne et des fenêtres d'explorateur plus sobres, dans "StartIsBack"
 %USERPROFILE%\Desktop\Windows CALM\StartIsBack
 lancez "StartIsBack-2.9.17.0"
 
 Pour rechanger des options c'est dans
 C:\Program Files\Outils
 StartIsBackCfg.exe
-Lancez le 
+Lancez le
 
 Menu démarrer
 Ne cocher que "Rechercher dans les programmes et les paramètres.
@@ -317,7 +292,7 @@ Fermez le logiciel
 
 Puis 'clic droit' sur la barre de menu, "Paramètres de la barre des tâches"
 
-Cochez 
+Cochez
 "Utilisez des petits boutons dans la barre des tâches
 Et position de la barre des tâches, choisissez "En Haut"
 Décochez "Afficher les actualités et les centres d'intérêt dans la barre des tâches"
@@ -325,31 +300,29 @@ Décochez "Afficher les actualités et les centres d'intérêt dans la barre des
 Puis 'clic droit' sur la barre de menu, décochez "Afficher le bouton Cortana"
 Puis 'clic droit' sur la barre de menu, "Rechercher" et choisissez "Masquée"
 
-Puis 'clic droit' sur un endroit vide du bureau, "Personnaliser" 
+Puis 'clic droit' sur un endroit vide du bureau, "Personnaliser"
 
 Allez dans Couleur et "Choisissez votre couleur" = Sombre
 Descendez la fenêtre jusqu'à "Couleurs Windows" et cliquez sur "Couleur personnalisée"
 "Plus"
 et entrez
-#191919
+`#191919``
 Puis "OK"
 
 Cochez (juste en dessous) :
 Démarrer,barre des tâches et centre de notifications
 Barre de titre et bordures de fenêtres
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 11 OldNewExplorer
+___________________________________________________________________________
 
-Dans 
+Dans
 C:\Program Files\Outils\OldNewExplorer
  lancer "OldNewExplorerCfg.exe"
 
 Cocher seulement
-
 
 Use classical drive grouping in This PC
 Use command bar instead of Ribbon
@@ -359,13 +332,11 @@ Show status bar
 
 puis "Install"
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 12 Avoir les permissions sur les fichiers
 
-Allez dans 
+Allez dans
 
 C:\Program Files\Outils\EcMenu
 Lancez EcMenu_x64.exe
@@ -374,24 +345,23 @@ Tout en bas
 cochez "Prendre possession" dans "Menu contextuel des dossiers" et "Menu contextuel des fichiers"
 Cliquez sur l'icone de souris avec un "+" vert en haut à gauche, et fermez.
 
-
-
-__________________________________________________________
+___________________________________________________________________________
 
 13 Enlever la barre de commande
 
-Allez dans 
+Allez dans
 %windir%\Resources\Themes\Aero\Shell\NormalColor
-#C'est le thème par défaut, changez le répertoire si vous en utilisez un autre (il sont généralement déjà patchés).
+
+C'est le thème par défaut, changez le répertoire si vous en utilisez un autre (il sont généralement déjà patchés).
 Copiez "shellstyle.dll" sur votre bureau
 
-Dans 
+Dans
 C:\Program Files\Outils\Resource Hacker
 Lancez ResourceHacker.exe, puis 'CTRL+0'
 
-Allez dans 
+Allez dan
 %windir%\Resources\Themes\Aero\Shell\NormalColor
-#C'est le thème par défaut, changez le répertoire si vous en utilisez un autre (il sont généralement déjà patchés).
+C'est le thème par défaut, changez le répertoire si vous en utilisez un autre (il sont généralement déjà patchés).
 et choisissez shellstyle.dll sur le bureau
 
 Allez dans
@@ -403,11 +373,10 @@ UIFILE > 1 : 1033
 Juste en dessous de la ligne copiez :
 <Element padding="rect(0rp,0rp,0rp,-35rp)"/>
 
-F5 pour lancer la compilation 
-dans la fenêtre de ressource hacker, allez dans File/save as et sauvez le ailleurs. 
+F5 pour lancer la compilation
+dans la fenêtre de ressource hacker, allez dans File/save as et sauvez le ailleurs.
 
 et CTRL + S pour sauvegarder, il créera une archive "shellstyle_original.dll" sur le bureau.
-
 
 Allez dans
 %windir%\Resources\Themes\Aero\Shell\NormalColor
@@ -421,11 +390,11 @@ taskkill /f /im explorer.exe
 puis relancer l'explorateur de fichier avec
 start explorer.exe
 
-
 Ensuite dans l'explorateur de fichier on va cacher la 2e barre d'état :
 'Alt' le menu apparaît,on va dans "Outils/Options des dossiers..." allez dans l'onglet "Affichage",
 et décochez "Afficher la barre d'état".
-__________________________________________________________
+
+___________________________________________________________________________
 
 14 Derniers réglages
 
@@ -448,20 +417,18 @@ Lecteur vidéo = mpv
 
 Naviguateur web = Vivaldi
 
-__________________________________________________________
+___________________________________________________________________________
 
 15 Le theme
 
 https://www.deviantart.com/niivu/art/Installing-Windows-Themes-UPDATED-708835586
 https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960
 
-
 le theme ARC X marche pour windows 10
 
 pour voir la version 'Win+R' puis 'winver'
 
 sinon pour le theme j'utilise "ThemeTool.exe" de https://github.com/namazso/SecureUxTheme
-
 
 Allez dans C:\Program Files\Outils\theme\ARC X
 Dans BIB3 for Windows copiez les fichiers dans
@@ -483,14 +450,13 @@ Cochez tout sauf "Hook explorer(!)", puis "Install"
 
 l'install est faite proprement
 
-__________________________________________________________
+___________________________________________________________________________
 
 15 Finalité finale
 
 afficher les extensions
 Dans l'explorateur de fichiers, alt pour faire apparaitre la barre de menu puis outils/ "Options de dossiers", "Affichage"
 et décochez "Masquer les extensions de fichiers dont le type est connu"
-
 
 déplacer ear trumpet aussi
 Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
