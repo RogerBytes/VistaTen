@@ -59,7 +59,42 @@ ___________________________________________________________________________
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Une installation fraîche de Windows 10 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
+Une installation fraîche de Windows 10 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).  
+Lors de l'installation de windows, il faut bypass la connexion en ligne, pour ouvrir un batch shell faites `SHIFT + F10`, puis faites la commande suivante :
+
+```batch
+oobe\BypassNRO
+# après reboot, quand vous serez sur la page "comment souhaitez vous configurez cet appareil" vous aurez besoin de couper internet avec
+ipconfig /release
+```
+
+Juste après la dernière commande, vous pouvez cliquer sur suivant, il fera un compte local.
+
+Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A`, tapez ensuite :
+
+```batch
+irm https://massgrave.dev/get | iex
+```
+
+Faire toutes les maj de windows, ouvrir le windows store, allez dans Bibliothèque et faites les màj, faites des reboot et reverifiez les maj system et store.
+
+Puis 1, vous permettant de vérifier l'état de l'installation.
+
+Ensuite dans edge, aller dans  
+atlasos.net  
+Cliquez sur les deux liens en haut "Atlas Playbook" et "AME Wizard"  
+Décompressez les deux fichiers sur votre bureau
+
+Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
+
+Allez dans le dossier "AME Wizard Beta"
+et lancez `AME Wizard Beta.exe`
+En haut à droite, vérifiez que le programme n'a pas de mise à jour.
+Depuis le dossier "AtlasPlaybook_v*.*.*" glissez le fichier `AtlasPlaybook_v*.*.*.apbx` dans la fenêtre de AME Wizard.
+Suivez les indications de l'installateur après avoir cliqué sur "Run action" de "Disable Security"
+
+Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
+
 </details>
 
 ___________________________________________________________________________
