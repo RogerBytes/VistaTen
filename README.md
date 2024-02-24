@@ -92,8 +92,47 @@ et lancez `AME Wizard Beta.exe`
 En haut à droite, vérifiez que le programme n'a pas de mise à jour.
 Depuis le dossier "AtlasPlaybook_v*.*.*" glissez le fichier `AtlasPlaybook_v*.*.*.apbx` dans la fenêtre de AME Wizard.
 Suivez les indications de l'installateur après avoir cliqué sur "Run action" de "Disable Security"
+Ca vous ouvre une fenêtre dans les options de sécurité (j'ai oublié le nom fr) où vous aurez 4 options à désactiver.  
 
-Follow the on-screen instructions from AME Wizard to successfully install AtlasOS
+Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va reboot de lui même.
+
+Au reboot, Atlas sera installé. Mais on va poursuivre un peu plus.
+
+Dans Atlas/1. Software/ :
+
+1. Lancez "Install Software.ps1" et choisissez
+
+- Discord
+- Playnite
+- Everything
+- Mozilla Thunderbird
+- foobar2000
+- Git
+- PuTTY
+- Ditto
+- 7-Zip
+- OBS Studio
+- MSI Afterburner
+- CPU-Z
+- GPU-Z
+- Notepad++
+- VSCodium
+- BCUninstaller
+- HWiNFO
+- ShareX
+
+Playnite demande de désactiver nahimic, il faut faire `Win + R` et taper "services.msc", l'arrêter dans la liste, et via clic droit propriété, le dtype d démarrage sur "désactiver"
+
+utiliser ce projet avec les options par défaut
+https://github.com/Raphire/Win11Debloat
+
+Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour https://www.oo-software.com/en/shutup10
+dans Actions choisir "Appliquer tous les paramètres recommendés" (il faut le refaire à chaque màj de windows)
+Ensuite faire l'installation des drivers avec le site :
+
+Sur la page `https://www.touslesdrivers.com/index.php?v_page=29`
+Cliquez pour télécharger `Drivers_3.0.4.exe`
+`Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
 
 </details>
 
