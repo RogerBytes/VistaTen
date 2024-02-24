@@ -140,15 +140,19 @@ Installer et installer tous les drivers.
 ```batch
 winget install startallback
 ```
+
 ou téléchargez le depuis `http://www.startallback.com`
 
 Dans startallback  
 démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"
 Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes"
 Icones de la barre des tâches -> Activer le deuxième (les deux rectangles), et mettre "XL" pour la marge des icones
+Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"
 
 Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `%LOCALAPPDATA%/StartAllBack`
 C'est aussi dans ce dossier pour changer des options.
+
+sinon il faut uyilliser open shell, dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "Install Open-Shell.cmd" et lancer "Open Shell" pour importer (en cchangant l'option backup) le fichier "Atlas Open-Shell Preset.xml".
 
 </details>
 
