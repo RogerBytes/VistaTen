@@ -133,6 +133,22 @@ Ensuite faire l'installation des drivers avec le site :
 Sur la page `https://www.touslesdrivers.com/index.php?v_page=29`
 Cliquez pour télécharger `Drivers_3.0.4.exe`
 `Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
+Installer et installer tous les drivers.
+
+`Win + X` et `A` et faites
+
+```batch
+winget install startallback
+```
+ou téléchargez le depuis `http://www.startallback.com`
+
+Dans startallback  
+démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"
+Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes"
+Icones de la barre des tâches -> Activer le deuxième (les deux rectangles), et mettre "XL" pour la marge des icones
+
+Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `%LOCALAPPDATA%/StartAllBack`
+C'est aussi dans ce dossier pour changer des options.
 
 </details>
 
