@@ -149,13 +149,12 @@ Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la
 Icones de la barre des tâches -> Activer le deuxième (les deux rectangles), et mettre "XL" pour la marge des icones
 Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"
 
-Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `%LOCALAPPDATA%/StartAllBack`
-C'est aussi dans ce dossier pour changer des options.
+Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `C:\Program Files\StartAllBack`
+C'est dans ce dossier pour changer des options.
 
-sinon il faut uyilliser open shell, dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "Install Open-Shell.cmd" et lancer "Open Shell" pour importer (en cchangant l'option backup) le fichier "Atlas Open-Shell Preset.xml".
+Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
 
 </details>
-
 ___________________________________________________________________________
 
 ## Installation
@@ -311,23 +310,7 @@ Ensuite
 dans "General" aller à "Choose your startup task" et mettez
 {Shells::cmd (Admin)}
 
-### 7. Démarrage rapide
-
-Je recommande aussi de désactiver le démarrage rapide de windows, ou plutôt c'est indispensable si vous comptez avoir plusieurs OS sur votre ordinateur.
-
-Allez dans les options d'arrêt avec la commande
-
-```batch
-%windir%\system32\control.exe /name Microsoft.PowerOptions /page pageGlobalSettings
-```
-
-ou en allant dans
-`Panneau de configuration\Matériel et audio\Options d’alimentation\Paramètres système`
-
-Cliquez sur "Modifier les paramètres actuellement non disponibles"
-Décochez le bouton "Activer le démarrage rapide (recommandé)" puis sur "Enregistrer les modifications"
-
-### 8. Icônes et souris
+### 7. Icônes et souris
 
 Allez dans
 `C:\Program Files\Outils\icones\Souris theme la capitaine`
@@ -348,7 +331,7 @@ Choisissez "7TSP Kora"
 Ensuite cliquez sur "Démarrage" en bas à droite.
 L'ordi redémmarre avec les nouvelles icones.
 
-### 9. Menu démarrer
+### 8. Menu démarrer
 
 Et faites un backup de menu démarrer start menu
 
@@ -360,7 +343,7 @@ dans
 
 Ensuite pouvez nettoyer la liste des applications sans craintes dans les deux dossiers.
 
-### 10. Explorateur de fichiers
+### 9. Explorateur de fichiers
 
 Pour revenir à un affichage plus conventionnel, sans groupes, cliquez du bouton droit sur une zone inoccupée de l’explorateur de fichiers, pointez Regrouper par et cliquez sur (aucun) :
 
@@ -418,7 +401,7 @@ Cochez (juste en dessous) :
 Démarrer,barre des tâches et centre de notifications
 Barre de titre et bordures de fenêtres
 
-### 11. OldNewExplorer
+### 10. OldNewExplorer
 
 Dans
 `C:\Program Files\Outils\OldNewExplorer`
@@ -434,7 +417,7 @@ Show status bar
 
 puis "Install"
 
-### 12. Avoir les permissions sur les fichiers
+### 11. Avoir les permissions sur les fichiers
 
 Allez dans
 
@@ -445,7 +428,7 @@ Tout en bas
 cochez "Prendre possession" dans "Menu contextuel des dossiers" et "Menu contextuel des fichiers"
 Cliquez sur l'icone de souris avec un "+" vert en haut à gauche, et fermez.
 
-### 13. Enlever la barre de commande
+### 12. Enlever la barre de commande
 
 Allez dans
 `%windir%\Resources\Themes\Aero\Shell\NormalColor`
@@ -505,7 +488,7 @@ Ensuite dans l'explorateur de fichier on va cacher la 2e barre d'état :
 'Alt' le menu apparaît,on va dans "Outils/Options des dossiers..." allez dans l'onglet "Affichage",
 et décochez "Afficher la barre d'état".
 
-### 14. Derniers réglages
+### 13. Derniers réglages
 
 Dans l'explorateur de fichiers clic droit sur "Accès rapide" dans la navbar à gauche et "Options"
 Décochez "Afficher les dossiers récemment utilisés dans Accès rapide"
@@ -528,7 +511,7 @@ Lecteur vidéo = mpv
 
 Naviguateur web = Vivaldi
 
-### 15. Le theme
+### 14. Le theme
 
 [deviantart.com/niivu](https://www.deviantart.com/niivu/art/Installing-Windows-Themes-UPDATED-708835586)
 [deviantart.com/niivu/art/](https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960)
@@ -553,7 +536,7 @@ Cochez tout sauf "Hook explorer(!)", puis "Install"
 Ca redémarre
 L'install est faite proprement
 
-### 16. Finalité finale
+### 15. Finalité finale
 
 afficher les extensions
 Dans l'explorateur de fichiers, alt pour faire apparaître la barre de menu puis outils/ "Options de dossiers", "Affichage"
