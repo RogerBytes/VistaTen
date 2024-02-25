@@ -124,9 +124,9 @@ Dans Atlas/1. Software/ :
 Playnite demande de désactiver nahimic, il faut faire `Win + R` et taper "services.msc", l'arrêter dans la liste, et via clic droit propriété, le dtype d démarrage sur "désactiver"
 
 utiliser ce projet avec les options par défaut
-https://github.com/Raphire/Win11Debloat
+`https://github.com/Raphire/Win11Debloat`
 
-Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour https://www.oo-software.com/en/shutup10
+Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour `https://www.oo-software.com/en/shutup10`
 dans Actions choisir "Appliquer tous les paramètres recommendés" (il faut le refaire à chaque màj de windows)
 Ensuite faire l'installation des drivers avec le site :
 
@@ -520,7 +520,7 @@ le theme ARC X marche que pour windows 10
 
 pour voir la version 'Win+R' puis 'winver'
 
-Sinon pour le theme j'utilise "ThemeTool.exe" de https://github.com/namazso/SecureUxTheme
+Sinon pour le theme j'utilise "ThemeTool.exe" de `https://github.com/namazso/SecureUxTheme`
 
 Allez dans
 `C:\Program Files\Outils\theme\ARC X`
