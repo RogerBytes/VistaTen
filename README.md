@@ -59,7 +59,7 @@ ___________________________________________________________________________
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Une installation fraîche de Windows 10 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).  
+Une installation fraîche de Windows 10 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
 Lors de l'installation de windows, il faut bypass la connexion en ligne, pour ouvrir un batch shell faites `SHIFT + F10`, puis faites la commande suivante :
 
 ```batch
@@ -80,9 +80,9 @@ Faire toutes les maj de windows, ouvrir le windows store, allez dans Bibliothèq
 
 Puis 1, vous permettant de vérifier l'état de l'installation.
 
-Ensuite dans edge, aller dans  
-atlasos.net  
-Cliquez sur les deux liens en haut "Atlas Playbook" et "AME Wizard"  
+Ensuite dans edge, aller dans
+atlasos.net
+Cliquez sur les deux liens en haut "Atlas Playbook" et "AME Wizard"
 Décompressez les deux fichiers sur votre bureau
 
 Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
@@ -92,7 +92,7 @@ et lancez `AME Wizard Beta.exe`
 En haut à droite, vérifiez que le programme n'a pas de mise à jour.
 Depuis le dossier "AtlasPlaybook_v*.*.*" glissez le fichier `AtlasPlaybook_v*.*.*.apbx` dans la fenêtre de AME Wizard.
 Suivez les indications de l'installateur après avoir cliqué sur "Run action" de "Disable Security"
-Ca vous ouvre une fenêtre dans les options de sécurité (j'ai oublié le nom fr) où vous aurez 4 options à désactiver.  
+Ca vous ouvre une fenêtre dans les options de sécurité (j'ai oublié le nom fr) où vous aurez 4 options à désactiver.
 
 Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va reboot de lui même.
 
@@ -143,7 +143,7 @@ winget install startallback
 
 ou téléchargez le depuis `http://www.startallback.com`
 
-Dans startallback  
+Dans startallback
 démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"
 Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes"
 Icones de la barre des tâches -> Activer le deuxième (les deux rectangles), et mettre "XL" pour la marge des icones
@@ -152,7 +152,7 @@ Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" 
 Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `C:\Program Files\StartAllBack`
 C'est dans ce dossier pour changer des options.
 
-Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
+Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer
 
 </details>
 ___________________________________________________________________________
@@ -560,6 +560,7 @@ ___________________________________________________________________________
 5. Refaire le lisez-moi
 6. Faire la liste de toutes les applications
 7. Faire une application simple pour changer sa version de Java
+8. Faire un dossier ToDO pour simplifier la gestion projet
 
 </details>
 
