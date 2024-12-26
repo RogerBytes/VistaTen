@@ -1,45 +1,5 @@
 
-%LOCALAPPDATA%\StartAllBack
-
-StartAllBackCfg.exe
-
-dans Avancé faire "Désactiver ce logiciel pour l(utilisateur actuel
-
-https://github.com/WitherOrNot/StartXBack/releases/tag/release
-
-Copy dll in
-
-%LOCALAPPDATA%\StartAllBack
-
-et lancer startxback.cmd
-Attendre qu'il corrige le bug
-
-
-
-
-Commande pour chocolatey c'est :
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-
-
-Le passage debloater est àç virer, déjà fai en prereqis
-
-
-Pour winget il faut virer le truc qui dt de installer avec wxindows store, deja fait en prerequis
-
-Pour le passage cmder
-
-
-Ajouter CMDER faire avec chovolateyr
-
-virer le reglade de start is black qui sera en doublopn
-
-
 Et le chemibn pour mpv bat c'est
-
-
-
-
-et virer freeoffice demerde
 
 
 Et rappeller de désactiver le démmarrage rapuide

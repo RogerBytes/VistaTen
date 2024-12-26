@@ -60,6 +60,14 @@ ___________________________________________________________________________
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
+
+https://docs.atlasos.net/getting-started/installation/#1-download-an-iso
+Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez suyr "submit"
+
+POUR MACH8NE VIRTUELLE VIRTUYALVBOX
+Penser à cocher "skip unatendeted"
+
+une fois arrivé à l'écran des choix (là où ils demandent de se connecter à son compte)
 Lors de l'installation de windows, il faut bypass la connexion en ligne, pour ouvrir un batch shell faites `SHIFT + F10`, puis faites la commande suivante :
 
 ```batch
@@ -70,29 +78,50 @@ ipconfig /release
 
 Juste après la dernière commande, vous pouvez cliquer sur suivant, il fera un compte local.
 
+Si ça marche pas, recommencez en coupant internet manuellement.
+
 Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A`, tapez ensuite :
 
 ```batch
 irm https://massgrave.dev/get | iex
 ```
 
+Choisir l'option 1
+
+
+POUR MACH8NE VIRTUELLE VIRTUYALVBOX
+Une fois installer, aller sur "Aide A propos de virtualbox" pour voir la version., moi virtualbox 7.0.16
+https://download.virtualbox.org/virtualbox/7.0.10/VBoxGuestAdditions_7.0.10.iso
+Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "VBoxGuestAdditions_7.0.10.iso"
+
+Faire l'installation, reboot, et on peut ejecter le cd après
+
+Dans virtualbox, dans configuration/Général/avancé, activer bidirectionnel pour "presse papier partagé et pour "glisser dépooser"
+FIN VIRTUAL BOX MANPIE
+
+
+
+INSTALLER ATLAS OS
+LA DOC :
+https://docs.atlasos.net/getting-started/installation/
+
+En gros c'est bon, aller sur
+https://atlasos.net/
+
+Cliquer sur "Get Started Now" et choisir "I'm Following the guide, show me the downloads" en bas.
+Cliquer sur ATLAS Playbook pour le DL
+Cliquer sur AME Wizard pour le DL
+
+Aller dans les parametres de windows, puis "Windows Update", rechercher les màj, et les faire toute, y compris facultatices, jusqu'à quy'il y en ai plus du tout
+Ouvrir le microsoft store pour tout Màj (dans le bouton latéral "telechargements")
+Penser à reboot et çà reverfier les màj de microsoft update et de microsoft store
+
+
+
 Faire toutes les maj de windows, ouvrir le windows store, allez dans Bibliothèque et faites les màj, faites des reboot et reverifiez les maj system et store.
 
-Puis 1, vous permettant de vérifier l'état de l'installation.
-
-Ensuite dans edge, aller dans
-atlasos.net
-Cliquez sur les deux liens en haut "Atlas Playbook" et "AME Wizard"
-Décompressez les deux fichiers sur votre bureau
-
-Restart after all updates are complete. After restarting, check again for updates repeatedly until there are no more updates that pop up
-
-Allez dans le dossier "AME Wizard Beta"
-et lancez `AME Wizard Beta.exe`
-En haut à droite, vérifiez que le programme n'a pas de mise à jour.
-Depuis le dossier "AtlasPlaybook_v*.*.*" glissez le fichier `AtlasPlaybook_v*.*.*.apbx` dans la fenêtre de AME Wizard.
-Suivez les indications de l'installateur après avoir cliqué sur "Run action" de "Disable Security"
-Ca vous ouvre une fenêtre dans les options de sécurité (j'ai oublié le nom fr) où vous aurez 4 options à désactiver.
+Ensuite ouvrir "AME Wizard Beta.exe" depuis "AME Wizard Beta"
+Da,s le repertoir "AtlasPlaybook_v0.4.1" glissez "AtlasPlaybook_v0.4.1.apbx" dans la fenetre de l'app "AME WIZARD", opuis suivre les instructions
 
 Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va reboot de lui même.
 
@@ -123,10 +152,12 @@ ShareX
 Powershell 7
 UniGetUI
 
-Playnite demande de désactiver nahimic, il faut faire `Win + R` et taper "services.msc", l'arrêter dans la liste, et via clic droit propriété, le dtype d démarrage sur "désactiver"
 
 utiliser ce projet avec les options par défaut
 `https://github.com/Raphire/Win11Debloat`
+
+NORMALEMENT LA COMMAND ESRT : (dans powershell adminà)
+& ([scriptblock]::Create((irm "https://win11debloat.raphi.re/")))
 
 Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour `https://www.oo-software.com/en/shutup10`
 dans Actions choisir "Appliquer tous les paramètres recommendés" (il faut le refaire à chaque màj de windows)
@@ -143,6 +174,9 @@ Installer et installer tous les drivers.
 winget install startallback
 ```
 
+
+
+
 ou téléchargez le depuis `http://www.startallback.com`
 
 Dans startallback
@@ -157,6 +191,33 @@ Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `C:\Program Files
 C'est dans ce dossier pour changer des options.
 
 Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer
+
+
+
+%LOCALAPPDATA%\StartAllBack
+
+StartAllBackCfg.exe
+
+dans Avancé faire "Désactiver ce logiciel pour l(utilisateur actuel
+
+https://github.com/WitherOrNot/StartXBack/releases/tag/release
+
+Copy dll in
+
+%LOCALAPPDATA%\StartAllBack
+
+et lancer startxback.cmd
+Attendre qu'il corrige le bug
+
+
+%LOCALAPPDATA%\StartAllBack
+
+StartAllBackCfg.exe
+
+dans Avancé DECOCHER "Désactiver ce logiciel pour l(utilisateur actuel
+
+
+
 
 </details>
 ___________________________________________________________________________
@@ -189,6 +250,9 @@ Attention JE VOUS D2CONSEILLE de Déplacer le dossier utilisateur sur une autre 
 
 ### 2. Chocolatey
 
+
+
+SEMBLME FACLTATIF, DEJA INSTALLE EN PREREQUIS JE PENSE
 Ouvrez powershell en administrateur avec 'Win+X' Puis 'A' :
 
 ```powershell
@@ -198,45 +262,14 @@ Get-ExecutionPolicy
 puis :
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('<https://chocolatey.org/install.ps1>'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+PAS FADCULTATIF
 
 Ensuite lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
 
-### 3. Debloater et shutup10
+### 3. Winget
 
-Ouvrez powershell en administrateur 'WIN+X' puis 'A'
-
-puis
-Set-ExecutionPolicy Unrestricted -Force
-
-puis
-cd "C:\Program Files\Outils\Windows10Debloater"
-copiez le chemin où se trouve Windows10Debloater
-
-puis
-./Windows10DebloaterGUI.ps1
-
-Et choisissez ce que vous voulez nettoyer.
-Chez moi
-"Remove All Bloatware"
-"Disable Cortana"
-"Stop Edge PDF Takeover"
-"Uninstall OneDrive"
-"Disable Telemetry/Tasks"
-"Enable dark theme"
-
-Fermez la fenêtre et le powershell,
-dans
-C:\Program Files\Outils
-lancez "OSU10.exe"
-Aller dans "Actions" et choisir "Appliquer tous les paramètres recommandés", puis "OUI"
-Fermez et choisissez "Redémarrer le système".
-
-### 4. Winget
-
-Installez le depuis le microsoft store (recherche "winget" et choisissez "Programme d'installation d'application"
-Redémmarez
 Commande pour lister les dépôts dans cmder
 
 ```batch
@@ -267,7 +300,7 @@ dans
 
 Et lancez imageGlass depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
 
-### 5. Lecteur PDF
+### 4. Lecteur PDF
 
 Pour Foxit reader ouvrez-le, avec la commande
 
@@ -290,7 +323,7 @@ Cocher "Désactiver toutes les fonctionnalités qui exigent une connexion à int
 Cliquer sur "OK" et quitter
 Allez en haut à gauche, Fichier, Apparence, et choisir "sombre"
 
-### 6. Cmder
+### 5. Cmder
 
 Ouvrez Cmder, allez dans les options avec 'Win+Alt+P"
 
@@ -312,9 +345,9 @@ et décochez en bas "Show`...brought ConEmu OnTop. Revert ?` confirmation box.
 
 Ensuite
 dans "General" aller à "Choose your startup task" et mettez
-{Shells::cmd (Admin)}
+{PowerShell::PowerShell as Admin}
 
-### 7. Icônes et souris
+### 6. Icônes et souris
 
 Allez dans
 `C:\Program Files\Outils\icones\Souris theme la capitaine`
@@ -335,7 +368,7 @@ Choisissez "7TSP Kora"
 Ensuite cliquez sur "Démarrage" en bas à droite.
 L'ordi redémmarre avec les nouvelles icones.
 
-### 8. Menu démarrer
+### 7. Menu démarrer
 
 Et faites un backup de menu démarrer start menu
 
@@ -347,50 +380,7 @@ dans
 
 Ensuite pouvez nettoyer la liste des applications sans craintes dans les deux dossiers.
 
-### 9. Explorateur de fichiers
-
-Pour revenir à un affichage plus conventionnel, sans groupes, cliquez du bouton droit sur une zone inoccupée de l’explorateur de fichiers, pointez Regrouper par et cliquez sur (aucun) :
-
-Pour avoir un menu à l'ancienne et des fenêtres d'explorateur plus sobres, dans "StartIsBack"
-`%USERPROFILE%\Desktop\Windows CALM\StartIsBack`
-lancez "StartIsBack-2.9.17.0"
-
-Pour rechanger des options c'est dans
-`C:\Program Files\Outils`
-StartIsBackCfg.exe
-Lancez-le
-
-Menu démarrer
-Ne cocher que "Rechercher dans les programmes et les paramètres.
-Cacher tous les éléments de la colonne de droite sauf votre nom d'utilisateur, panneau de configuration et paramètres.
-
-Menu Apparence
-Le 2e
-Le 1e
-Le 1e
-Tout décocher
-Allez dans (en bas) "personnaliser la barre des tâches" et cocher "Centrer les icones dans la barre des taches"
-
-Règle d'affichage
-Ne cocher que "L'afficher sur la barre des tâches principales"
-
-Avancé
-Ne cocher que "Activer les animations du menu Démarrer et de la barre des tâches"
-
-A propos
-Mises à jour : ne jamais vérifier.
-
-Fermez le logiciel
-
-Puis 'clic droit' sur la barre de menu, "Paramètres de la barre des tâches"
-
-Cochez
-"Utilisez des petits boutons dans la barre des tâches
-Et position de la barre des tâches, choisissez "En Haut"
-Décochez "Afficher les actualités et les centres d'intérêt dans la barre des tâches"
-
-Puis 'clic droit' sur la barre de menu, décochez "Afficher le bouton Cortana"
-Puis 'clic droit' sur la barre de menu, "Rechercher" et choisissez "Masquée"
+### 8. Explorateur de fichiers
 
 Puis 'clic droit' sur un endroit vide du bureau, "Personnaliser"
 
@@ -405,7 +395,7 @@ Cochez (juste en dessous) :
 Démarrer,barre des tâches et centre de notifications
 Barre de titre et bordures de fenêtres
 
-### 10. OldNewExplorer
+### 9. OldNewExplorer
 
 Dans
 `C:\Program Files\Outils\OldNewExplorer`
@@ -421,7 +411,7 @@ Show status bar
 
 puis "Install"
 
-### 11. Avoir les permissions sur les fichiers
+### 10. Avoir les permissions sur les fichiers
 
 Allez dans
 
@@ -432,115 +422,17 @@ Tout en bas
 cochez "Prendre possession" dans "Menu contextuel des dossiers" et "Menu contextuel des fichiers"
 Cliquez sur l'icone de souris avec un "+" vert en haut à gauche, et fermez.
 
-### 12. Enlever la barre de commande
 
-Allez dans
-`%windir%\Resources\Themes\Aero\Shell\NormalColor`
 
-C'est le thème par défaut, changez le répertoire si vous en utilisez un autre (il sont généralement déjà patchés).
-Copiez "shellstyle.dll" sur votre bureau
-
-Dans
-`C:\Program Files\Outils\Resource Hacker`
-Lancez ResourceHacker.exe, puis 'CTRL+0'
-
-Allez dans
-`%windir%\Resources\Themes\Aero\Shell\NormalColor`
-C'est le thème par défaut, changez le répertoire si vous en utilisez un autre (il sont généralement déjà patchés).
-et choisissez shellstyle.dll sur le bureau
-
-Allez dans
-`UIFILE > 1 : 1033`
-
-'CTRL+F' et copiez
-
-```bash
-<style resid="FolderBandStyle">
-```
-
-Juste en dessous de la ligne copiez :
-
-```bash
-<Element padding="rect(0rp,0rp,0rp,-35rp)"/>
-```
-
-F5 pour lancer la compilation
-dans la fenêtre de ressource hacker, allez dans "File/save as" et sauvez le ailleurs.
-
-et CTRL + S pour sauvegarder, il créera une archive "shellstyle_original.dll" sur le bureau.
-
-Allez dans
-`%windir%\Resources\Themes\Aero\Shell\NormalColor`
-Clic droit sur shellstyle.dll et "Prendre possession"
-renommez "shellstyle.dll" en "shellstyle_default.dll"
-
-Et copiez le nouveau "shellstyle.dll"
-
-Ensuite lancez cmder
-
-```batch
-taskkill /f /im explorer.exe
-```
-
-puis relancer l'explorateur de fichier avec
-
-```batch
-start explorer.exe
-```
-
-Ensuite dans l'explorateur de fichier on va cacher la 2e barre d'état :
-'Alt' le menu apparaît,on va dans "Outils/Options des dossiers..." allez dans l'onglet "Affichage",
-et décochez "Afficher la barre d'état".
-
-### 13. Derniers réglages
+### 11. Derniers réglages
 
 Dans l'explorateur de fichiers clic droit sur "Accès rapide" dans la navbar à gauche et "Options"
 Décochez "Afficher les dossiers récemment utilisés dans Accès rapide"
 
-Dans Cmder en mode administrateur
+Dans CMDER
+winget install -e --id VideoLAN.VLC
 
-```batch
-C:\ProgramData\chocolatey\lib\mpv.install\tools\mpv-install.bat
-```
-
-Dans la fenêtre qui s'ouvre choisir "Configurer les programmes par défaut"
-
-Courrier = Thunderbird
-
-Lecteur de musique = foobar2000
-
-Visionneuse de photo = ImageGlass
-
-Lecteur vidéo = mpv
-
-Naviguateur web = Vivaldi
-
-### 14. Le theme
-
-[deviantart.com/niivu](https://www.deviantart.com/niivu/art/Installing-Windows-Themes-UPDATED-708835586)
-[deviantart.com/niivu/art/](https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960)
-
-le theme ARC X marche que pour windows 10
-
-pour voir la version 'Win+R' puis 'winver'
-
-Sinon pour le theme j'utilise "ThemeTool.exe" de `https://github.com/namazso/SecureUxTheme`
-
-Allez dans
-`C:\Program Files\Outils\theme\ARC X`
-Dans BIB3 for Windows copiez les fichiers dans
-Windows/Resources/Themes
-
-Lancez "ThemeTool.exe" en admin via clic droit,
-Cochez tout sauf "ignore color"
-choisisissez "Arc Dark" puis "Patch & Apply"
-Dans l'encadré "Installation"
-Cochez tout sauf "Hook explorer(!)", puis "Install"
-
-Ca redémarre
-L'install est faite proprement
-
-### 15. Finalité finale
+### 12. Finalité finale
 
 afficher les extensions
 Dans l'explorateur de fichiers, alt pour faire apparaître la barre de menu puis outils/ "Options de dossiers", "Affichage"
