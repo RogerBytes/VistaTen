@@ -100,26 +100,28 @@ Au reboot, Atlas sera installé. Mais on va poursuivre un peu plus.
 
 Dans Atlas/1. Software/ :
 
-1. Lancez "Install Software.ps1" et choisissez
+Dans C:\Windows\AtlasDesktop\1. Software lancez Install Software.cmd  :
 
-- Discord
-- Playnite
-- Everything
-- Mozilla Thunderbird
-- foobar2000
-- Git
-- PuTTY
-- Ditto
-- 7-Zip
-- OBS Studio
-- MSI Afterburner
-- CPU-Z
-- GPU-Z
-- Notepad++
-- VSCodium
-- BCUninstaller
-- HWiNFO
-- ShareX
+LibreWolf
+Steam
+Playnite
+Everything
+Mozilla Thunderbird
+foobar2000
+Git
+PuTTY
+Ditto
+OBS Studio
+MSI Afterburner
+CPU-Z
+GPU-Z
+Notepad++
+VSCodium
+BCUninstaller
+HWiNFO
+ShareX
+Powershell 7
+UniGetUI
 
 Playnite demande de désactiver nahimic, il faut faire `Win + R` et taper "services.msc", l'arrêter dans la liste, et via clic droit propriété, le dtype d démarrage sur "désactiver"
 
@@ -145,9 +147,11 @@ ou téléchargez le depuis `http://www.startallback.com`
 
 Dans startallback
 démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"
-Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes"
-Icones de la barre des tâches -> Activer le deuxième (les deux rectangles), et mettre "XL" pour la marge des icones
+Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)
+Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe et le stylet;
+	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones
 Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"
+
 
 Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `C:\Program Files\StartAllBack`
 C'est dans ce dossier pour changer des options.
