@@ -59,7 +59,7 @@ ___________________________________________________________________________
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Une installation fraîche de Windows 10 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
+Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
 Lors de l'installation de windows, il faut bypass la connexion en ligne, pour ouvrir un batch shell faites `SHIFT + F10`, puis faites la commande suivante :
 
 ```batch
