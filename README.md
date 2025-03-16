@@ -83,7 +83,7 @@ Si ça marche pas, recommencez en coupant internet manuellement.
 Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A`, tapez ensuite :
 
 ```batch
-irm https://massgrave.dev/get | iex
+irm https://get.activated.win | iex
 ```
 
 Choisir l'option 1
@@ -153,11 +153,9 @@ Powershell 7
 UniGetUI
 
 
-utiliser ce projet avec les options par défaut
-`https://github.com/Raphire/Win11Debloat`
-
-NORMALEMENT LA COMMAND ESRT : (dans powershell adminà)
-& ([scriptblock]::Create((irm "https://win11debloat.raphi.re/")))
+Ensuite faire :  
+`& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))`  
+Choisir l'option pour desinstaller, choisissez tout sauf app store, et erelancer le script et mettez les options par défaut.
 
 Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour `https://www.oo-software.com/en/shutup10`
 dans Actions choisir "Appliquer tous les paramètres recommendés" (il faut le refaire à chaque màj de windows)
