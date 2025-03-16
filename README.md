@@ -174,10 +174,8 @@ Installer et installer tous les drivers.
 winget install StartIsBack.StartAllBack
 ```
 
-
-
-
-ou téléchargez le depuis `http://www.startallback.com`
+Allez dans le dossier `StartIsBack/Startallblmackfix`
+et lancez en admin `startxback.cmd`
 
 Dans startallback
 démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"
