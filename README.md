@@ -220,21 +220,7 @@ Attention JE VOUS D2CONSEILLE de Déplacer le dossier utilisateur sur une autre 
 
 
 
-SEMBLME FACLTATIF, DEJA INSTALLE EN PREREQUIS JE PENSE
-Ouvrez powershell en administrateur avec 'Win+X' Puis 'A' :
-
-```powershell
-Get-ExecutionPolicy
-```
-
-puis :
-
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-```
-PAS FADCULTATIF
-
-Ensuite lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
+Lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
 
 ### 3. Winget
 
