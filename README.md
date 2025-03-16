@@ -184,38 +184,7 @@ Icones de la barre des tâches -> Dans activer ou descativer des icones systeme 
 	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
 Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"  
 
-
-Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `C:\Program Files\StartAllBack`
-C'est dans ce dossier pour changer des options.
-
 Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer
-
-
-
-%LOCALAPPDATA%\StartAllBack
-
-StartAllBackCfg.exe
-
-dans Avancé faire "Désactiver ce logiciel pour l(utilisateur actuel
-
-https://github.com/WitherOrNot/StartXBack/releases/tag/release
-
-Copy dll in
-
-%LOCALAPPDATA%\StartAllBack
-
-et lancer startxback.cmd
-Attendre qu'il corrige le bug
-
-
-%LOCALAPPDATA%\StartAllBack
-
-StartAllBackCfg.exe
-
-dans Avancé DECOCHER "Désactiver ce logiciel pour l(utilisateur actuel
-
-
-
 
 </details>
 ___________________________________________________________________________
