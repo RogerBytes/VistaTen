@@ -182,7 +182,7 @@ démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plu
 Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
 Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe et le stylet;  
 	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
-Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"  
+Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", choisir barre de commande de windows 7  
 
 Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer
 
