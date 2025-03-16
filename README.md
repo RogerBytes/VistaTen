@@ -177,12 +177,12 @@ winget install StartIsBack.StartAllBack
 Allez dans le dossier `StartIsBack/Startallblmackfix`
 et lancez en admin `startxback.cmd`
 
-Dans startallback
-démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"
-Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)
-Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe et le stylet;
-	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones
-Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"
+Dans startallback  
+démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"  
+Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
+Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe et le stylet;  
+	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
+Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments"  
 
 
 Lancer "StartAllFix.exe" et pour trouver le fichier c'est dans `C:\Program Files\StartAllBack`
