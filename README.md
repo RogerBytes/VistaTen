@@ -222,6 +222,8 @@ Attention JE VOUS D2CONSEILLE de Déplacer le dossier utilisateur sur une autre 
 
 Lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
 
+Floorp étant installé on peut virer librewolf
+
 ### 3. Winget
 
 Commande pour lister les dépôts dans cmder
