@@ -175,6 +175,8 @@ winget install StartIsBack.StartAllBack
 Allez dans le dossier `StartIsBack/Startallblmackfix`
 et lancez en admin `startxback.cmd`
 
+Allez dans `%USERPROFILE%\AppData\Local\StartAllBack`
+
 Dans startallback  
 démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"  
 Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
