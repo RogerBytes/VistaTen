@@ -184,7 +184,8 @@ Icones de la barre des tâches -> Dans activer ou descativer des icones systeme 
 	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
 Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", choisir barre de commande de windows 7  
 
-Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `3. Configuration/Start Menu/` et lancer "ExplorerPatcher" pour l'installer
+Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
+ET AUSSI LE TAKE OWNERSHIPT DANS "4. iNTRERFACE TWEAKS/CONTEXT MENU/`"
 
 </details>
 ___________________________________________________________________________
