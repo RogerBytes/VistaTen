@@ -171,7 +171,7 @@ Installer et installer tous les drivers.
 `Win + X` et `A` et faites
 
 ```batch
-winget install startallback
+winget install StartIsBack.StartAllBack
 ```
 
 
