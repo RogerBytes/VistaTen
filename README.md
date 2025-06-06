@@ -165,8 +165,11 @@ ___
 
 ## Installation
 
+
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
+
+Commencez par télécharger [la dernière version de VistaTen](https://github.com/RogerBytes/VistaTen/releases/latest).
 
 ### 1. Utilitaires  basiques
 
