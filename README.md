@@ -283,7 +283,7 @@ clink update
 
 Cliquez [ici](https://github.com/RogerBytes/VistaTen/releases/download/v0.1.0/Runtimes.zip) pour télécharger l'archive et décompressez-la.  
 Dans le dossier `Runtimes`, lancer `install_all.bat` en administrateur.
-Il faut aussi télécharger et installer [.NET Framework 3.5 (inclut .NET 2.0 et 3.0)](https://www.microsoft.com/fr-fr/download/details.aspx?id=21), passez par le lien `Package.NET Framework 3.5 complet`
+Il faut aussi télécharger et installer [.NET Framework 3.5 (inclut .NET 2.0 et 3.0)](https://www.microsoft.com/fr-fr/download/details.aspx?id=21), vous pouvez passez par le lien `Package.NET Framework 3.5 complet`, un peu en dessous.
 
 ### 7. Icônes et souris
 
