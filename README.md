@@ -264,7 +264,7 @@ Allez en haut à gauche, Fichier, `Apparence`, et choisir `sombre`
 
 ### 5. Cmder
 
-Ouvrez Cmder, allez dans les options avec 'Win+Alt+P"
+Ouvrez Cmder, allez dans les options avec `Win+Alt+P`
 
 Dans l'espace de droite, dans `Choose your startup task` choisissez : `{PowerShell::PowerShell as Admin}`.  
 
@@ -339,10 +339,25 @@ Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAl
 Dans le dossier `Atlas` aller dans `4. Interface Tweaks/Context Menus/Take Ownership` et lancez `Add Take Ownership to Context Menu.reg`.
 
 Aller dans les options de Windows, allez dans `Personnalisation/Barre des tâches` dans `Comportements de la barre des tâches` décochez `Afficher ma barre des tâche sur tous les affichages`.
+
 ### 10. Dernier réglages
 
 déplacer ear trumpet aussi
 Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
+
+#### Retirer le raccourci de OneDrive
+
+Faites `WIN` + `X` puis `A` (ou ouvrez cmder) et collez-ceci :
+
+```powershell
+$baseKey = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace'
+Get-ChildItem -Path $baseKey | ForEach-Object {
+    # Exemple : filtre si besoin ici
+    # if ((Get-ItemProperty $_.PsPath).'(default)' -eq 'Nom spécifique') {
+    Remove-Item -Path $_.PsPath -Recurse -Force
+    Write-Output "Clé supprimée : $($_.PsChildName)"
+}
+```
 
 </details>
 
