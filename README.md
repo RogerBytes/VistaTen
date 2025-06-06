@@ -266,8 +266,10 @@ Allez en haut à gauche, Fichier, `Apparence`, et choisir `sombre`
 
 Ouvrez Cmder, allez dans les options avec 'Win+Alt+P"
 
-Allez dans "General>Confirm" et décochez le dernier de la liste (dans "miscellaneous") :
-"Show '...brought ConEmu OnTop. Revert' confirmation box"
+Dans l'espace de droite, dans `Choose your startup task` choisissez : `{PowerShell::PowerShell as Admin}`.  
+
+Allez dans `General>Confirm` et décochez le dernier de la liste (dans "miscellaneous") :  
+`Show '...brought ConEmu OnTop. Revert' confirmation box`
 
 Cliquez sur "Save settings"
 
