@@ -134,9 +134,9 @@ Cliquez sur `Get Started Now` et choisissez `I'm Following the guide, show me th
 Cliquer sur `ATLAS Playbook` pour le DL.  
 Cliquer sur `AME Wizard` pour le DL
 
-Aller dans les parametres de windows, puis "Windows Update", rechercher les màj, et les faire toute, y compris facultatices, jusqu'à quy'il y en ai plus du tout
-Ouvrir le microsoft store pour tout Màj (dans le bouton latéral "telechargements")
-Penser à reboot et çà reverfier les màj de microsoft update et de microsoft store
+Aller dans les parametres de windows, puis "Windows Update", rechercher les màj, et les faire toute, y compris facultatices, jusqu'à ce qu'il n'y en ai plus du tout.  
+Ouvrir le microsoft store pour tout Màj (dans le bouton latéral "telechargements").  
+Penser à reboot et çà reverfier les màj de microsoft update et de microsoft store.  
 
 
 
