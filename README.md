@@ -154,10 +154,10 @@ Ensuite faire :
 & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
 ```
 
-Choisir l'option 1, choisissez tout sauf app store, et erelancer le script et mettez les options par défaut.
+Choisissez l'option 1.
 
-Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour `https://www.oo-software.com/en/shutup10`
-dans Actions choisir "Appliquer tous les paramètres recommendés" (il faut le refaire à chaque màj de windows)
+Ensuite il faut utiliser `O&O ShutUp10++` depuis [leur site](https://www.oo-software.com/en/shutup10).
+Ensuite lancez le et dans `Actions` choisissez `Appliquer tous les paramètres recommendés` (il faut le refaire à chaque màj de windows)
 </details>
 
 ___________________________________________________________________________
