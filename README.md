@@ -217,8 +217,6 @@ winget import -i "C:\Program Files\Outils\winget.json" --accept-package-agreemen
 winget install --id 9WZDNCRDR0C2  --accept-package-agreements --accept-source-agreements
 ```
 
-Ensuite dans un powershell non admin le refaire.
-
 Le faire au moins 2x de suite pour être sûr d'avoir tout récupéré, en ce moment se relance seulement portmaster.
 
 Facultatif, si vous voulez exporter votre propre liste d'app :
