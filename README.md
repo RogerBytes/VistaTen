@@ -79,9 +79,13 @@ Si ça marche pas, recommencez en coupant internet manuellement avec
 ipconfig /release
 ```
 
+Et poursuivez l'installation de Windows.
+
 ### Drivers
 
-Attention à noter les étapes en notant quel matériel et quel driver vous installez, très utile en cas de soucis de driver
+Voilà, windows est bien installé, vous pouvez vous connecter au wifi ou au réseau, votre compte est bien en local.  
+
+Attention à bien noter les étapes en notant quel matériel et quel driver vous installez, très utile en cas de soucis de driver
 
 Sur la page `https://www.touslesdrivers.com/index.php?v_page=29`
 Cliquez pour télécharger `Drivers_3.0.4.exe`
@@ -90,20 +94,14 @@ Installer et installer tous les drivers.
 
 Faites les maj de windows update et de Microsoft Store
 
----
-
-
-Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A`, tapez ensuite :
+Ensuite, il faut valider avec `Win + X` puis `A`, tapez ensuite dans la fenêtre :
 
 ```batch
 irm https://get.activated.win | iex
 ```
 
-
-
-
-Choisir l'option 1
-Si besoin allez dans `2` pour installer microsoft office
+Choisissez l'option 1.
+Si besoin allez dans `2` pour installer microsoft office.
 
 POUR MACHINE VIRTUELLE VIRTUALBOX
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
@@ -118,10 +116,8 @@ Dans virtualbox, dans configuration/Général/avancé, activer bidirectionnel po
 </details>
 
 
+### Installer AtlasOS
 
-
-
-INSTALLER ATLAS OS
 LA DOC :
 https://docs.atlasos.net/getting-started/installation/
 
@@ -144,6 +140,8 @@ Ensuite ouvrir "AME Wizard Beta.exe" depuis "AME Wizard Beta"
 Da,s le repertoir "AtlasPlaybook_v0.4.1" glissez "AtlasPlaybook_v0.4.1.apbx" dans la fenetre de l'app "AME WIZARD", opuis suivre les instructions
 
 Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va reboot de lui même.
+
+### Dernier néttoyage de Windows
 
 Au reboot, Atlas sera installé. Mais on va poursuivre un peu plus.
 
