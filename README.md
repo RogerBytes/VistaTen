@@ -336,10 +336,22 @@ Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAl
 
 Dans le dossier `Atlas` aller dans `4. Interface Tweaks/Context Menus/Take Ownership` et lancez `Add Take Ownership to Context Menu.reg`.
 
-### 10. Plugin son
+### 10. Dernier réglages
 
 déplacer ear trumpet aussi
 Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
+
+#### Si besoin de retirer une application envahissante
+
+Par exemple si je veux retirer `onedrive` je fais `Win` + `X`puis `A`.  
+
+Ensuite faire :
+
+```powershell
+& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
+```
+
+Choisissez l'option 1.
 
 </details>
 
