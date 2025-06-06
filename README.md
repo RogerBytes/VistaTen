@@ -3,23 +3,6 @@
 
 Ce script est conçu pour automatiser le processus de personnalisation de Windows 10 en installant une suite complète de logiciels open source. De manière simple, les utilisateurs peuvent transformer leur système Windows en un environnement léger pour le jeu vidéo.
 A contrario une installation supplémentaire le transformera en un environnement de travail puissant et personnalisé, idéal pour les développeurs, les créateurs de contenu, et les utilisateurs quotidiens.
-<details>
-<summary>A régler avant première release</summary>
-
-1. Installeurs/FoxitPDFReader20232_L10N_Setup_Prom.7z.001 en deux parties à décompresser
-2. Faire une version light
-3. Reformuler la documentation au propre, en s'inspirant par exemple de l'extrait suivant :
-
-<details>
-<summary>Exemple</summary>
-Pour démarrer avec le script de personnalisation de Linux Mint, suivez ces étapes simples :
-
-1. Téléchargez le script sur votre machine Linux Mint.
-2. Rendez le script exécutable avec la commande : `chmod +x custom-linux-mint.sh`.
-3. Exécutez le script avec : `./custom-linux-mint.sh`.
-
-</details>
-</details>
 
 ## Présentation
 
@@ -41,7 +24,7 @@ Une liste non exhaustive des logiciels inclus dans ce script :
 - **Développement**: Codium, Git
 - **Bureautique**: LibreOffice, Thunderbird
 - **Multimédia**: GIMP, Kodi
-- **Internet**: Vivaldi, FileZilla
+- **Internet**: Floorp, FileZilla
 - ...et beaucoup d'autres !
 
 ### Contributions
@@ -64,9 +47,9 @@ Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS 
 **N'INSTALLEZ PAS UNE VERSION N DE WINDOWS SI VOUS VOULEZ AVOIR LES CODECS PROPRIÉTAIRES POUR LIRE LES VIDÉOS DANS LE NAVIGATEUR**
 
 https://docs.atlasos.net/getting-started/installation/#1-download-an-iso
-Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez suyr "submit"
+Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez sur "submit"
 
-POUR MACH8NE VIRTUELLE VIRTUYALVBOX
+POUR MACHINE VIRTUELLE VIRTUYALBOX
 Penser à cocher "skip unatendeted"
 
 une fois arrivé à l'écran des choix (là où ils demandent de se connecter à son compte)
@@ -78,7 +61,7 @@ oobe\BypassNRO
 ipconfig /release
 ```
 
-Juste après la dernière commande, vous pouvez cliquer sur suivant, il fera un compte local.
+Juste après la dernière commande, il va relancer ce coup-ci vous pourrez passer outre la connexion.
 
 Si ça marche pas, recommencez en coupant internet manuellement.
 
@@ -91,7 +74,7 @@ irm https://get.activated.win | iex
 Choisir l'option 1
 
 
-POUR MACH8NE VIRTUELLE VIRTUYALVBOX
+POUR MACHINE VIRTUELLE VIRTUYALVBOX
 Une fois installer, aller sur "Aide A propos de virtualbox" pour voir la version., moi virtualbox 7.0.16
 https://download.virtualbox.org/virtualbox/7.0.10/VBoxGuestAdditions_7.0.10.iso
 Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "VBoxGuestAdditions_7.0.10.iso"
@@ -129,32 +112,6 @@ Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va 
 
 Au reboot, Atlas sera installé. Mais on va poursuivre un peu plus.
 
-Dans Atlas/1. Software/ :
-
-Dans C:\Windows\AtlasDesktop\1. Software lancez Install Software.cmd  :
-
-LibreWolf
-Steam
-Playnite
-Everything
-Mozilla Thunderbird
-foobar2000
-Git
-PuTTY
-Ditto
-OBS Studio
-MSI Afterburner
-CPU-Z
-GPU-Z
-Notepad++
-VSCodium
-BCUninstaller
-HWiNFO
-ShareX
-Powershell 7
-UniGetUI
-
-
 Ensuite faire :  
 `& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))`  
 Choisir l'option pour desinstaller, choisissez tout sauf app store, et erelancer le script et mettez les options par défaut.
@@ -167,28 +124,6 @@ Sur la page `https://www.touslesdrivers.com/index.php?v_page=29`
 Cliquez pour télécharger `Drivers_3.0.4.exe`
 `Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
 Installer et installer tous les drivers.
-
-`Win + X` et `A` et faites
-
-```batch
-winget install StartIsBack.StartAllBack
-```
-
-Allez dans le dossier `StartIsBack/Startallblmackfix`
-et lancez en admin `startxback.cmd`
-
-Allez dans `%USERPROFILE%\AppData\Local\StartAllBack`
-
-Dans startallback  
-démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"  
-Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
-Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe, clavier tactile et le stylet;  
-	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
-Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", choisir barre de commande de windows 7  
-
-Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
-ET AUSSI LE TAKE OWNERSHIPT DANS "4. iNTRERFACE TWEAKS/CONTEXT MENU/`"
-
 </details>
 ___________________________________________________________________________
 
@@ -361,17 +296,7 @@ Le mettre sur "Détails", le par groupe est sur (Aucun), il suffit de cliquer su
 Ca évite, dans l'explorateur, de faire à chaque dossier : 'clic droit'/Regrouper par/Aucun
 
 
-### 9. Permissions et plugin son
-
-Allez dans
-
-`C:\Program Files\Outils\EcMenu`
-Lancez EcMenu_x64.exe
-
-Tout en bas
-cochez "Prendre possession" dans "Menu contextuel des dossiers" et "Menu contextuel des fichiers"
-Cliquez sur l'icone de souris avec un "+" vert en haut à gauche, et fermez.
-
+### 9. Plugin son
 
 déplacer ear trumpet aussi
 Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
@@ -401,7 +326,16 @@ C:\Program Files\StartAllBack et StartAllBackCfg.exe )
 
 allez dans l'onglet "Démarrer" et décochez (tout en haut la 1ere options) "Utiliser le menu démarrer classique amélioré"
 
-Faites les réglages de barre, à ajouter dans les modif dureadme
+Faites les réglages de barre, à ajouter dans les modif dureadme VERFIER CE QUI SUIT ----> -> ->
+Dans startallback  
+démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"  
+Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
+Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe, clavier tactile et le stylet;  
+	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
+Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", choisir barre de commande de windows 7  
+
+Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
+ET AUSSI LE TAKE OWNERSHIPT DANS "4. iNTRERFACE TWEAKS/CONTEXT MENU/`"
 
 
 </details>
