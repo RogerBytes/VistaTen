@@ -303,7 +303,7 @@ Cliquez sur `ajouter un pack` et dans
 `C:\Program Files\Outils\icones`  
 Choisissez `7TSP Kora`  
 Ensuite cliquez sur `Démarrage` en bas à droite.  
-L'ordi redémmarre avec les nouvelles icones.
+L'ordi redémmarre avec les nouvelles icones, soyez patient durant la mise à jour lors du redémmarage, c'est normal que ça prenne 2~4 minutes.
 
 
 ### 8. Fix pour regroupement auto de l'explorateur de fichiers
