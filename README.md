@@ -185,8 +185,7 @@ Dans `Installeurs` installez `nexus dock`, copiez `wsbackup.wbk` dans `C:\Users\
 et importez les réglages dans l' avant dernière fenêtre d'options (`CTRL` + `clic droit` et `Préférences`) avec le bouton `Restaurer` (il sera caché pour l'instant, c'est normal).  
 Décompressez `FoxitPDFReader20232_L10N_Setup_Prom.7z.001` avec `nanazip` et installez `JDownloaderSetup.exe`, `FoxitPDFReader20232_L10N_Setup_Prom.exe` et `pCloud_Windows_3.11.17_x64.exe` 
 
-Dans jdownloader faire l'importation des options : dans `Fichier` choisissez `Export/Import` et `Importez les paramètres` et choisissez `JD2-Dark-Theme.jd2backup`,
-Pensez à corriger le chemin de téléchargements.
+Dans jdownloader faire l'importation des options : dans `Fichier` choisissez `Export/Import` et `Importez les paramètres` et choisissez `JD2-Dark-Theme.jd2backup`, pensez à corriger le chemin de téléchargements.
 
 **En passant, ne déplacez le dossier utilisateur sur une autre partition, j'ai déjà voulu le faire dans l'espoir de fusionner mes dossier user entre mon système linux et mon système windows, ça va détruire tous les liens logiques de windows en rendre inutilisable de nombreuses applications**
 
