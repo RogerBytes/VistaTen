@@ -246,26 +246,21 @@ Et lancez `XnView MP` depuis le menu et faite les confirmations du premier déma
 
 ### 4. Lecteur PDF
 
-Pour Foxit reader ouvrez-le, avec la commande
+Lancez Foxit reader.
 
-```batch
-"C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\FoxitPDFReader.exe"
-Choisir "set as default pdf reader"
-```
-
-Aller dans "File/Preferences"
-"Language" et cochez "Use system local language" puis "OK" et "Restart Now"
-Aller dans Fichiers/Préférences
-Dans "Accessibilité
-Cocher "Remplacer les couleurs du document"
-Cocher "Couleur personnalisé"
-Mettre arrière-plan de page en noir
-Mettre texte du document en blanc
-Aller dans l'onglet "Général"
-Tout en bas tout décocher dans l'encadré "Démarrage de l'application"
-Cocher "Désactiver toutes les fonctionnalités qui exigent une connexion à internet"
-Cliquer sur "OK" et quitter
-Allez en haut à gauche, Fichier, Apparence, et choisir "sombre"
+Aller dans `File/Preferences`  
+`Language` et cochez `Use system local language` puis `OK` et `Restart Now`  
+Aller dans `Fichiers/Préférences`  
+Dans `Accessibilité`  
+Cocher `Remplacer les couleurs du document`  
+Cocher `Couleur personnalisé`  
+Mettre arrière-plan de page en noir  
+Mettre texte du document en blanc  
+Aller dans l'onglet `Général`  
+Tout en bas tout décocher dans l'encadré `Démarrage de l'application`  
+Cocher `Désactiver toutes les fonctionnalités qui exigent une connexion à internet`  
+Cliquer sur `OK` et quitter  
+Allez en haut à gauche, Fichier, `Apparence`, et choisir `sombre`  
 
 ### 5. Cmder
 
