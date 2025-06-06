@@ -40,15 +40,22 @@ ___________________________________________________________________________
 
 ## Prérequis
 
+### Installer Windows 11
+
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
+Personnellement j'utilise Windows 11 Professionnel.
 
-**N'INSTALLEZ PAS UNE VERSION N DE WINDOWS SI VOUS VOULEZ AVOIR LES CODECS PROPRIÉTAIRES POUR LIRE LES VIDÉOS DANS LE NAVIGATEUR**
+**N'INSTALLEZ PAS UNE VERSION N DE WINDOWS SI VOUS VOULEZ AVOIR LES CODECS PROPRIÉTAIRES, CAR SANS CES DERNIERS VOUS NE POURREZ LIRE LES VIDÉOS DANS LE NAVIGATEUR ETC**
 
 
-https://docs.atlasos.net/getting-started/installation/#1-download-an-iso
+#### Téléchargement
+
+Télchargez l'iso depuis [le site de AtlasOS](https://docs.atlasos.net/getting-started/installation/#1-download-an-iso)
 Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez sur "submit"
+
+Une fois téléchargé, mettre l'iso sur votre clef de ventoy et boot sur celle ci pour installer windows.
 
 POUR MACHINE VIRTUELLE VIRTUALBOX
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
@@ -57,18 +64,20 @@ Penser à cocher "skip unatendeted"
 </details>
 
 
-une fois arrivé à l'écran des choix (là où ils demandent de se connecter à son compte)
-Lors de l'installation de windows, il faut bypass la connexion en ligne, pour ouvrir un batch shell faites `SHIFT + F10`, puis faites la commande suivante :
+une fois arrivé de connexion WIFI, **ne vous connectez pas sinon votre ordi sera lié automatiquement à un compte microsoft** pour des raisons de vie privée, je vous recommande de faire un compte local en bypassant l'obligation d'être connécté à internet pour installer window :  
+Ouvrez un terminal avec `SHIFT + F10`, puis faites la commande suivante :
 
 ```batch
 oobe\BypassNRO
-# après reboot, quand vous serez sur la page "comment souhaitez vous configurez cet appareil" vous aurez besoin de couper internet avec
-ipconfig /release
 ```
 
 Juste après la dernière commande, il va relancer ce coup-ci vous pourrez passer outre la connexion.
 
-Si ça marche pas, recommencez en coupant internet manuellement.
+Si ça marche pas, recommencez en coupant internet manuellement avec
+
+```powershell
+ipconfig /release
+```
 
 ### Drivers
 
@@ -94,7 +103,7 @@ irm https://get.activated.win | iex
 
 
 Choisir l'option 1
-
+Si besoin allez dans `2` pour installer microsoft office
 
 POUR MACHINE VIRTUELLE VIRTUALBOX
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
@@ -109,7 +118,7 @@ Dans virtualbox, dans configuration/Général/avancé, activer bidirectionnel po
 </details>
 
 
-Si besoin allez dans `2` pour installer microsoft office
+
 
 
 INSTALLER ATLAS OS
