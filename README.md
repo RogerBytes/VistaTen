@@ -242,7 +242,7 @@ et supprimer :
 - `ClassicExplorer64.dll`
 - `ClassicExplorer32.dll`
 
-Et lancez imageGlass depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
+Et lancez `XnView MP` depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
 
 ### 4. Lecteur PDF
 
