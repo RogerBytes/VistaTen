@@ -63,14 +63,14 @@ Une fois téléchargé, mettre l'iso sur votre clef de ventoy et boot sur celle 
 POUR MACHINE VIRTUELLE VIRTUALBOX
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Penser à cocher "skip unatendeted"
+Pensez à cocher `skip unatendeted`
 </details>
 
 
-une fois arrivé de connexion WIFI, **ne vous connectez pas sinon votre ordi sera lié automatiquement à un compte microsoft** pour des raisons de vie privée, je vous recommande de faire un compte local en bypassant l'obligation d'être connécté à internet pour installer window :  
+une fois arrivé de connexion WIFI, **ne vous connectez pas sinon votre ordi sera lié automatiquement à un compte microsoft** pour des raisons de vie privée, je vous recommande de faire un compte local en bypassant l'obligation d'être connécté à internet pour installer window.  
 Ouvrez un terminal avec `SHIFT + F10`, puis faites la commande suivante :
 
-```batch
+```powershell
 oobe\BypassNRO
 ```
 
@@ -99,17 +99,19 @@ Faites les maj de windows update et de Microsoft Store
 
 Ensuite, il faut valider avec `Win + X` puis `A`, tapez ensuite dans la fenêtre :
 
-```batch
+```powershell
 irm https://get.activated.win | iex
 ```
 
-Choisissez l'option 1.
+Choisissez l'option `1`.
 Si besoin allez dans `2` pour installer microsoft office.
 
 POUR MACHINE VIRTUELLE VIRTUALBOX
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Une fois installer, aller sur "Aide A propos de virtualbox" pour voir la version., moi virtualbox 7.0.16
+Une fois installé, allez sur `Aide A propos de virtualbox` pour voir la version, chez moi c'est `virtualbox 7.0.16`.
+
+Donc en après avoir cherché [ici](https://download.virtualbox.org/virtualbox/) le plus récent avant est le `7.0.10`
 https://download.virtualbox.org/virtualbox/7.0.10/VBoxGuestAdditions_7.0.10.iso
 Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "VBoxGuestAdditions_7.0.10.iso"
 
