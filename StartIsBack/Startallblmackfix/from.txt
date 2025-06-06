@@ -1,5 +1,0 @@
-https://github.com/WitherOrNot/StartXBack/releases/tag/release
-
-Copy dll in
-
-%LOCALAPPDATA%\StartAllBack

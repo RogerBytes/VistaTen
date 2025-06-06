@@ -61,6 +61,8 @@ ___________________________________________________________________________
 <summary>Afficher/Masquer</summary>
 Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
 
+**N'INSTALLEZ PAS UNE VERSION N DE WINDOWS SI VOUS VOULEZ AVOIR LES CODECS PROPRIÉTAIRES POUR LIRE LES VIDÉOS DANS LE NAVIGATEUR**
+
 https://docs.atlasos.net/getting-started/installation/#1-download-an-iso
 Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez suyr "submit"
 
@@ -205,11 +207,9 @@ Téléchargements JD
 Téléchargements torrent
 Téléchargements ferdium
 
-dans "Installeurs" installez nexus dock, copiez "wsbackup.wbk" dans
-C:\Users\Public\Documents\Winstep
-et importez les réglages dans l' avant dernière fenêtre d'options avec le bouton "Restaurer"
-Installez également "JDownloaderSetup.exe", "FoxitPDFReader20232_L10N_Setup_Prom.exe" et "pCloud_Windows_3.11.17_x64.exe"
-C:\Program Files (x86)\Foxit Software\Foxit PDF Reader
+dans "Installeurs" installez nexus dock, copiez "wsbackup.wbk" dans 'C:\Users\Public\Documents\Winstep\Backup'  
+et importez les réglages dans l' avant dernière fenêtre d'options avec le bouton "Restaurer" Installez également "JDownloaderSetup.exe",  
+"FoxitPDFReader20232_L10N_Setup_Prom.exe" et "pCloud_Windows_3.11.17_x64.exe" C:\Program Files (x86)\Foxit Software\Foxit PDF Reader  
 
 Dans jdownloader faire l'importation des options : dans 'Fichier choisissez "Export/Import" et "Importez les paramètres" et choisissez "JD2-Dark-Theme.jd2backup",
 Pensez à corriger le chemin de téléchargements.
@@ -219,6 +219,18 @@ Attention JE VOUS D2CONSEILLE de Déplacer le dossier utilisateur sur une autre 
 ### 2. Chocolatey
 
 
+
+
+Infos depuis [cette page](https://chocolatey.org/install#individual)
+
+`WIN+X` puis `A`, ça ouvre le PowerShell
+
+On vérifie si  `Get-ExecutionPolicy` retourne "Unrestricted" sinon utiliser la commande `Set-ExecutionPolicy AllSigned` ou `Set-ExecutionPolicy Bypass -Scope Process`
+
+Ensuite lancer l'installation avec :
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 Lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
 
@@ -235,7 +247,8 @@ winget search | sort
 Dans le powershell en administrateur, importez les pré réglages avec
 
 ```powershell
-winget import --accept-package-agreements --accept-source-agreements "C:\Program Files\Outils\winget.txt"
+winget import -i "C:\Program Files\Outils\winget.json" --accept-package-agreements --accept-source-agreements
+winget install --id 9WZDNCRDR0C2  --accept-package-agreements --accept-source-agreements
 ```
 
 Ensuite dans un powershell non admin le refaire.
@@ -245,10 +258,8 @@ Le faire au moins 2x de suite pour être sûr d'avoir tout récupéré, en ce mo
 Facultatif, si vous voulez exporter votre propre liste d'app :
 
 ```powershell
-winget export "C:\Program Files\Outils\winget.txt"
+winget export "C:\Program Files\Outils\winget.json"
 ```
-
-et la radio à installer depuis [apps.microsoft.com](https://apps.microsoft.com/store/detail/9WZDNCRDR0C2?hl=fr-fr&gl=FR)
 
 dans
 `C:\Program Files\Outils`
@@ -336,38 +347,21 @@ dans
 
 Ensuite pouvez nettoyer la liste des applications sans craintes dans les deux dossiers.
 
-### 8. Explorateur de fichiers
+### 8. Fix pour regroupement auto de l'explorateur de fichiers
 
-Puis 'clic droit' sur un endroit vide du bureau, "Personnaliser"
+Téléchez ce [logiciel](https://lesferch.github.io/WinSetView/
 
-Allez dans Couleur et "Choisissez votre couleur" = Sombre
-Descendez la fenêtre jusqu'à "Couleurs Windows" et cliquez sur "Couleur personnalisée"
-"Plus"
-et entrez
-`#191919`
-Puis "OK"
+Lancer "WinSetView-Setup.exe" et faire l'installation
 
-Cochez (juste en dessous) :
-Démarrer,barre des tâches et centre de notifications
-Barre de titre et bordures de fenêtres
+Lance-le.
 
-### 9. OldNewExplorer
+Il suffit de regarder la 1er partie "Global"
+Le mettre sur "Détails", le par groupe est sur (Aucun), il suffit de cliquer sur le bouton "Soumettre", ça va régler la vue pour l'explorateur
 
-Dans
-`C:\Program Files\Outils\OldNewExplorer`
-lancer "OldNewExplorerCfg.exe"
+Ca évite, dans l'explorateur, de faire à chaque dossier : 'clic droit'/Regrouper par/Aucun
 
-Cocher seulement
 
-Use classical drive grouping in This PC
-Use command bar instead of Ribbon
-Hide caption text in File Explorer windows
-Hide caption icon in File Explorer windows
-Show status bar
-
-puis "Install"
-
-### 10. Avoir les permissions sur les fichiers
+### 9. Permissions et plugin son
 
 Allez dans
 
@@ -379,23 +373,37 @@ cochez "Prendre possession" dans "Menu contextuel des dossiers" et "Menu context
 Cliquez sur l'icone de souris avec un "+" vert en haut à gauche, et fermez.
 
 
-
-### 11. Derniers réglages
-
-Dans l'explorateur de fichiers clic droit sur "Accès rapide" dans la navbar à gauche et "Options"
-Décochez "Afficher les dossiers récemment utilisés dans Accès rapide"
-
-Dans CMDER
-winget install -e --id VideoLAN.VLC
-
-### 12. Finalité finale
-
-afficher les extensions
-Dans l'explorateur de fichiers, alt pour faire apparaître la barre de menu puis outils/ "Options de dossiers", "Affichage"
-et décochez "Masquer les extensions de fichiers dont le type est connu"
-
 déplacer ear trumpet aussi
 Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
+
+
+### 10. Réglage du menu OpenShell
+
+Ouvrir open shell, aller dans ses paramètres, activer "show all settings" et aller dans l'onglet "Main Menu", dans la partie (la première) "All Programs style" cocher "Open Automatically"
+
+Puis ok, fermer, allez dans
+C:\Program Files\Open-Shell\
+
+et supprimer 
+ClassicExplorer64.dll
+ClassicExplorer32.dll
+
+
+ENSUITE installer StartIsBack avec la commande
+
+```powershell
+winget install StartIsBack.StartAllBack --scope machine
+```
+
+
+Les options de StartAllBlack s'ouvrent (sinon les ouvrir depuis
+C:\Program Files\StartAllBack et StartAllBackCfg.exe )
+
+allez dans l'onglet "Démarrer" et décochez (tout en haut la 1ere options) "Utiliser le menu démarrer classique amélioré"
+
+Faites les réglages de barre, à ajouter dans les modif dureadme
+
+
 </details>
 
 ___________________________________________________________________________
