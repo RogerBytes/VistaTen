@@ -40,11 +40,14 @@ ___________________________________________________________________________
 
 ## Prérequis
 
-### Installer Windows 11
+
 
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
-Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS Linux il faut installer windows en premier).
+
+### Installer Windows 11
+
+Vous avez besoin d'une installation fraîche de Windows 11 (à installer avant linux si vous voulez un dual boot).
 Personnellement j'utilise Windows 11 Professionnel.
 
 **N'INSTALLEZ PAS UNE VERSION N DE WINDOWS SI VOUS VOULEZ AVOIR LES CODECS PROPRIÉTAIRES, CAR SANS CES DERNIERS VOUS NE POURREZ LIRE LES VIDÉOS DANS LE NAVIGATEUR ETC**
