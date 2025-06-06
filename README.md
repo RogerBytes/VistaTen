@@ -169,7 +169,8 @@ ___
 <details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
 <summary>Afficher/Masquer</summary>
 
-Commencez par télécharger [la dernière version de VistaTen](https://github.com/RogerBytes/VistaTen/releases/latest).
+Téléchargez [la dernière version de VistaTen](https://github.com/RogerBytes/VistaTen/releases/latest).  
+Décompressez l'archive.
 
 ### 1. Utilitaires  basiques
 
