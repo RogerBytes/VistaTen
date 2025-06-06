@@ -102,6 +102,7 @@ Faire l'installation, reboot, et on peut ejecter le cd après
 Dans virtualbox, dans configuration/Général/avancé, activer bidirectionnel pour "presse papier partagé et pour "glisser dépooser"
 FIN VIRTUAL BOX MANPIE
 
+Si besoin allez dans `2` pour installer microsoft office
 
 
 INSTALLER ATLAS OS
