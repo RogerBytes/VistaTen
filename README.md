@@ -330,11 +330,11 @@ Allez dans l'onglet `Démarrer` et décochez (tout en haut la 1ere options) `Uti
 
 Faites les réglages de barre, à ajouter dans les modif dureadme VERFIER CE QUI SUIT ----> -> ->  
 Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAllBackCfg.exe`.  
-démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"  
-Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
-Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe, clavier tactile et le stylet;  
+
+- `Barre des tâches` -> Taille des icone `S` Marge des icone `XS`, Emplacement de la barre des tâches à l'écran" : Haut, et `Centrer les icones de programmes` (séparé du bouton de démarrage)  
+- `Icones de la barre des tâches` -> Dans activer ou descativer des icones systeme activer tout sauf la loupe, clavier tactile et le stylet;  
 	tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", et mettre "XL" pour la marge des icones  
-Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", choisir barre de commande de windows 7  
+- `Explorateur` -> tout activer sauf "Panneau de détails dans la zone inférieure" et "Appliquer la couleur d'accentuation système sur tous les éléments", choisir barre de commande de windows 7  
 
 Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
 ET AUSSI LE TAKE OWNERSHIPT DANS "4. iNTRERFACE TWEAKS/CONTEXT MENU/`"
