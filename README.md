@@ -161,7 +161,7 @@ Ensuite lancez le et dans `Actions` choisissez `Appliquer tous les paramètres r
 Fermez `O&O ShutUp10++` et acceptez de redémarrer quand il vous le propose.
 </details>
 
-___________________________________________________________________________
+___
 
 ## Installation
 
