@@ -137,13 +137,11 @@ Cliquer sur `AME Wizard` pour le DL
 Aller dans les parametres de windows, puis "Windows Update", rechercher les màj, et les faire toute, y compris facultatices, jusqu'à ce qu'il n'y en ai plus du tout.  
 Ouvrir le microsoft store pour tout Màj (dans le bouton latéral "telechargements").  
 Penser à reboot et çà reverfier les màj de microsoft update et de microsoft store.  
+Vérifiez une dernière fois que toutes les maj de windows sont faites.
 
 
-
-Faire toutes les maj de windows, ouvrir le windows store, allez dans Bibliothèque et faites les màj, faites des reboot et reverifiez les maj system et store.
-
-Ensuite ouvrir "AME Wizard Beta.exe" depuis "AME Wizard Beta"
-Da,s le repertoir "AtlasPlaybook_v0.4.1" glissez "AtlasPlaybook_v0.4.1.apbx" dans la fenetre de l'app "AME WIZARD", opuis suivre les instructions
+Ensuite ouvrir `AME Wizard Beta.exe` depuis `AME Wizard Beta`.
+Dans le repertoire `AtlasPlaybook_v0.4.1` glissez `AtlasPlaybook_v*.*.*.apbx` dans la fenetre de l'app `AME WIZARD`, puis suivez les instructions.
 
 Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va reboot de lui même.
 
