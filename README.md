@@ -36,7 +36,7 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions ou des amé
 Distribué sous la licence GPLv3. Voir `LICENSE` pour plus d'informations.
 </details>
 
-___________________________________________________________________________
+___
 
 ## Prérequis
 
@@ -111,9 +111,10 @@ POUR MACHINE VIRTUELLE VIRTUALBOX
 <summary>Afficher/Masquer</summary>
 Une fois installé, allez sur `Aide A propos de virtualbox` pour voir la version, chez moi c'est `virtualbox 7.0.16`.
 
-Donc en après avoir cherché [ici](https://download.virtualbox.org/virtualbox/) le plus récent avant est le `7.0.10`
-https://download.virtualbox.org/virtualbox/7.0.10/VBoxGuestAdditions_7.0.10.iso
-Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "VBoxGuestAdditions_7.0.10.iso"
+Donc en après avoir cherché [ici](https://download.virtualbox.org/virtualbox/), j'ai bien un `VBoxGuestAdditions_7.0.16.iso` dans `7.0.16`
+Donc le lien est [https://download.virtualbox.org/virtualbox/7.0.16/VBoxGuestAdditions_7.0.16.iso](https://download.virtualbox.org/virtualbox/7.0.16/VBoxGuestAdditions_7.0.16.iso)
+
+Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "VBoxGuestAdditions_7.0.16.iso"
 
 Faire l'installation, reboot, et on peut ejecter le cd après
 
