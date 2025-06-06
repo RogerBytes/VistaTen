@@ -47,15 +47,6 @@ Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS 
 **N'INSTALLEZ PAS UNE VERSION N DE WINDOWS SI VOUS VOULEZ AVOIR LES CODECS PROPRIÉTAIRES POUR LIRE LES VIDÉOS DANS LE NAVIGATEUR**
 
 
-### Drivers
-
-Attention à noter les étapes en notant quel matériel et quel driver vous installez, très utile en cas de soucis de driver
-
-Sur la page `https://www.touslesdrivers.com/index.php?v_page=29`
-Cliquez pour télécharger `Drivers_3.0.4.exe`
-`Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
-Installer et installer tous les drivers.
-
 https://docs.atlasos.net/getting-started/installation/#1-download-an-iso
 Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez sur "submit"
 
@@ -80,6 +71,18 @@ Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A
 ```batch
 irm https://get.activated.win | iex
 ```
+
+
+### Drivers
+
+Attention à noter les étapes en notant quel matériel et quel driver vous installez, très utile en cas de soucis de driver
+
+Sur la page `https://www.touslesdrivers.com/index.php?v_page=29`
+Cliquez pour télécharger `Drivers_3.0.4.exe`
+`Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
+Installer et installer tous les drivers.
+
+---
 
 Choisir l'option 1
 
