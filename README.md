@@ -210,7 +210,7 @@ Lancez `install executer en tant qu'administrateur.bat` via `clic droit` et `exe
 
 
 
-Dans le powershell en administrateur, importez les pré réglages avec
+Dans le powershell en administrateur (`WIN` + `X` puis `A`), importez les pré réglages avec
 
 ```powershell
 winget import -i "C:\Program Files\Outils\winget.json" --accept-package-agreements --accept-source-agreements
