@@ -297,7 +297,7 @@ Dans l'onglet `Options du pointeur` décochez `Améliorer la précision du point
 Profitez en pour régler la vitesse de votre souris si besoin (800~1000 dps est bien en passant si vous avez un logiciel tier)  
 Cliquez sur `Appliquer` et `OK`.
 
-`C:\Program Files\Outils\icones\7tsp GUI v0.6(2019).exe`  
+Dans `C:\Program Files\Outils\icones\` lancez `7tsp GUI v0.6(2019).exe`  
 Cliquez sur `ajouter un pack` et dans  
 `C:\Program Files\Outils\icones`  
 Choisissez `7TSP Kora`  
