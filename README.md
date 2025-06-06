@@ -149,8 +149,11 @@ Poursuivez l'installation, choisissez waterfox comme navigateur. A la fin il va 
 Au reboot, Atlas sera installé. Mais on va poursuivre un peu plus.
 
 Ensuite faire :  
-`& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))`  
-Choisir l'option pour desinstaller, choisissez tout sauf app store, et erelancer le script et mettez les options par défaut.
+```powershell
+& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
+```
+
+Choisir l'option 1, choisissez tout sauf app store, et erelancer le script et mettez les options par défaut.
 
 Ensuite il faut utiliser O&O ShutUp10++ depuis le site pour être à jour `https://www.oo-software.com/en/shutup10`
 dans Actions choisir "Appliquer tous les paramètres recommendés" (il faut le refaire à chaque màj de windows)
