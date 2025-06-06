@@ -281,7 +281,7 @@ clink update
 
 ### 6. Runtimes
 
-Cliquez [ici](https://github.com/RogerBytes/VistaTen/releases/download/v0.1.0/Runtimes.zip) pour télécharger l'archive et décompressez-la.
+Cliquez [ici](https://github.com/RogerBytes/VistaTen/releases/download/v0.1.0/Runtimes.zip) pour télécharger l'archive et décompressez-la.  
 Dans le dossier `Runtimes`, lancer `install_all.bat` en administrateur.
 
 ### 7. Icônes et souris
