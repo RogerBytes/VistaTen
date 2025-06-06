@@ -334,8 +334,7 @@ Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAl
 - `Icones de la barre des tâches` -> Dans `activer ou descativer des icones systeme`, activer tout sauf la loupe, clavier tactile et le stylet; et mettre `XL` pour la marge des icones  
 - `Explorateur` -> tout activer sauf `Panneau de détails dans la zone inférieure` et `Appliquer la couleur d'accentuation système sur tous les éléments`, choisir `barre de commande de windows 7`.  
 
-Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer `ExplorerPatcher` pour l'installer  
-Et également `Take ownership` dans `4. iNTRERFACE TWEAKS/CONTEXT MENU/`.
+Dans le dossier `Atlas` aller dans `4. Interface Tweaks/Context Menus/Take Ownership` et lancez `Add Take Ownership to Context Menu.reg`.
 
 ### 10. Plugin son
 
