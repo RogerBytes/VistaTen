@@ -331,7 +331,7 @@ Allez dans l'onglet `Démarrer` et décochez (tout en haut la 1ere options) `Uti
 Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAllBackCfg.exe`.  
 
 - `Barre des tâches` -> Taille des icone `S` Marge des icone `XS`, `Emplacement de la barre des tâches à l'écran` : `Haut`, et `Centrer les icones de programmes` (séparé du bouton de démarrage), cochez également `Plumpness (Aura)`, `Masquage dynamique` et `Timidité dynamique`  
-- `Icones de la barre des tâches` -> Dans `activer ou descativer des icones systeme`, activer tout sauf la loupe, clavier tactile et le stylet; et mettre "XL" pour la marge des icones  
+- `Icones de la barre des tâches` -> Dans `activer ou descativer des icones systeme`, activer tout sauf la loupe, clavier tactile et le stylet; et mettre `XL` pour la marge des icones  
 - `Explorateur` -> tout activer sauf `Panneau de détails dans la zone inférieure` et `Appliquer la couleur d'accentuation système sur tous les éléments`, choisir `barre de commande de windows 7`.  
 
 Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer `ExplorerPatcher` pour l'installer  
