@@ -208,11 +208,7 @@ Lancez `install executer en tant qu'administrateur.bat` via `clic droit` et `exe
 
 ### 3. Winget
 
-Commande pour lister les dépôts dans cmder
 
-```batch
-winget search | sort
-```
 
 Dans le powershell en administrateur, importez les pré réglages avec
 
@@ -231,9 +227,11 @@ Facultatif, si vous voulez exporter votre propre liste d'app :
 winget export "C:\Program Files\Outils\winget.json"
 ```
 
-dans
-`C:\Program Files\Outils`
-`Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
+(information) Commande pour lister les dépôts dans le terminal :
+
+```batch
+winget search | sort
+```
 
 Et lancez imageGlass depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
 
