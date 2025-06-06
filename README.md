@@ -316,13 +316,7 @@ Le mettre sur `Détails`, le `par groupe` est sur `(Aucun)`, il suffit de clique
 Ca évite, dans l'explorateur, de faire à chaque dossier : `'clic droit'/Regrouper par/Aucun`.
 
 
-### 9. Plugin son
-
-déplacer ear trumpet aussi
-Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
-
-
-### 10. Derniers réglages du menu OpenShell
+### 9. Derniers réglages du menu OpenShell
 
 ENSUITE installer StartIsBack avec la commande
 
@@ -334,8 +328,8 @@ winget install StartIsBack.StartAllBack --scope machine
 Les options de StartAllBlack s'ouvrent (sinon les ouvrir depuis `C:\Program Files\StartAllBack` et `StartAllBackCfg.exe`).  
 Allez dans l'onglet `Démarrer` et décochez (tout en haut la 1ere options) `Utiliser le menu démarrer classique amélioré`.
 
-Faites les réglages de barre, à ajouter dans les modif dureadme VERFIER CE QUI SUIT ----> -> ->
-Dans startallback  
+Faites les réglages de barre, à ajouter dans les modif dureadme VERFIER CE QUI SUIT ----> -> ->  
+Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAllBackCfg.exe`.  
 démarrer -> cocher tout sauf "Ouvrir le menu de recherche Windows pour voir plus détails"  
 Barre des tâches -> Taille des icone "S" Marge des icone "S", Emplacement de la barre des tâches à l'écran" : Haut, et "Centrer les icones de programmes" (séparé du bouton de démarrage)  
 Icones de la barre des tâches -> Dans activer ou descativer des icones systeme activer tout sauf la loupe, clavier tactile et le stylet;  
@@ -345,6 +339,10 @@ Explorateur -> tout activer sauf "Panneau de détails dans la zone inférieure" 
 Sinon pour améliorer l'explorateur dans le dossier atlas c'est dans `4. iNTRERFACE TWEAKS/Start Menu/` et lancer "ExplorerPatcher" pour l'installer  
 ET AUSSI LE TAKE OWNERSHIPT DANS "4. iNTRERFACE TWEAKS/CONTEXT MENU/`"
 
+### 10. Plugin son
+
+déplacer ear trumpet aussi
+Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
 
 </details>
 
