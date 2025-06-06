@@ -157,7 +157,8 @@ Ensuite faire :
 Choisissez l'option 1.
 
 Ensuite il faut utiliser `O&O ShutUp10++` depuis [leur site](https://www.oo-software.com/en/shutup10).
-Ensuite lancez le et dans `Actions` choisissez `Appliquer tous les paramètres recommendés` (il faut le refaire à chaque màj de windows)
+Ensuite lancez le et dans `Actions` choisissez `Appliquer tous les paramètres recommendés` (il vous faudra le refaire à chaque màj de windows)  
+Fermez `O&O ShutUp10++` et acceptez de redémarrer quand il vous le propose.
 </details>
 
 ___________________________________________________________________________
