@@ -127,12 +127,12 @@ Dans virtualbox, dans configuration/Général/avancé, activer bidirectionnel po
 LA DOC :
 https://docs.atlasos.net/getting-started/installation/
 
-En gros c'est bon, aller sur
-https://atlasos.net/
+En gros c'est bon, vous pouvez aller sur [atlasos.net](https://atlasos.net/)
 
-Cliquer sur "Get Started Now" et choisir "I'm Following the guide, show me the downloads" en bas.
-Cliquer sur ATLAS Playbook pour le DL
-Cliquer sur AME Wizard pour le DL
+
+Cliquez sur `Get Started Now` et choisissez `I'm Following the guide, show me the downloads` en bas.  
+Cliquer sur `ATLAS Playbook` pour le DL.  
+Cliquer sur `AME Wizard` pour le DL
 
 Aller dans les parametres de windows, puis "Windows Update", rechercher les màj, et les faire toute, y compris facultatices, jusqu'à quy'il y en ai plus du tout
 Ouvrir le microsoft store pour tout Màj (dans le bouton latéral "telechargements")
