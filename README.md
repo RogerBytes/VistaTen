@@ -182,7 +182,8 @@ Créez 4 dossier de téléchargement dans le dossier `Téléchargements` :
 - Téléchargements ferdium
 
 Dans `Installeurs` installez `nexus dock`, copiez `wsbackup.wbk` dans `C:\Users\Public\Documents\Winstep\Backup`  
-et importez les réglages dans l' avant dernière fenêtre d'options avec le bouton `Restaurer` Installez également `JDownloaderSetup.exe`,  
+et importez les réglages dans l' avant dernière fenêtre d'options avec le bouton `Restaurer`.  
+Installez également `JDownloaderSetup.exe`,  
 `FoxitPDFReader20232_L10N_Setup_Prom.exe` et `pCloud_Windows_3.11.17_x64.exe" C:\Program Files (x86)\Foxit Software\Foxit PDF Reader`.  
 
 Dans jdownloader faire l'importation des options : dans `Fichier` choisissez `Export/Import` et `Importez les paramètres` et choisissez `JD2-Dark-Theme.jd2backup`,
