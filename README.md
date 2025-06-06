@@ -271,18 +271,16 @@ Dans l'espace de droite, dans `Choose your startup task` choisissez : `{PowerShe
 Allez dans `General>Confirm` et décochez le dernier de la liste (dans "miscellaneous") :  
 `Show '...brought ConEmu OnTop. Revert' confirmation box`
 
-Cliquez sur "Save settings"
+Cliquez sur `Save settings` et redémmarez.
 
-Redémmarez
+Après reboot faire une màj avec
 
-après reboot faire une màj avec
-
-```batch
+```powershell
 clink update
 ```
 
 Win+Alt+P et aller dans "General/Confirm"
-et décochez en bas "Show`...brought ConEmu OnTop. Revert ?` confirmation box.
+et décochez en bas `Show'...brought ConEmu OnTop. Revert ?` confirmation box.
 
 Ensuite
 dans "General" aller à "Choose your startup task" et mettez
