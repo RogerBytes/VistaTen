@@ -203,9 +203,8 @@ Ensuite lancer l'installation avec :
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
-Lancez "install executer en tant qu'administrateur.bat" via 'clic droit' "executer en mode administrateur"
+Lancez `install executer en tant qu'administrateur.bat` via `clic droit` et `executer en mode administrateur`
 
-Floorp étant installé on peut virer librewolf
 
 ### 3. Winget
 
