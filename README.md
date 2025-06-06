@@ -316,9 +316,9 @@ Le mettre sur `Détails`, le `par groupe` est sur `(Aucun)`, il suffit de clique
 Ca évite, dans l'explorateur, de faire à chaque dossier : `'clic droit'/Regrouper par/Aucun`.
 
 
-### 9. Derniers réglages du menu OpenShell
+### 9. Menu OpenShell
 
-ENSUITE installer StartIsBack avec la commande
+Installer `StartIsBack` avec la commande
 
 ```powershell
 winget install StartIsBack.StartAllBack --scope machine
@@ -330,12 +330,15 @@ Allez dans l'onglet `Démarrer` et décochez (tout en haut la 1ere options) `Uti
 
 Ouvrir les options à nouveau depuis `C:\Program Files\StartAllBack` et `StartAllBackCfg.exe`.  
 
-- `Barre des tâches` -> Taille des icone `S` Marge des icone `XS`, `Emplacement de la barre des tâches à l'écran` : `Haut`, et `Centrer les icones de programmes` (séparé du bouton de démarrage), cochez également `Plumpness (Aura)`, `Masquage dynamique` et `Timidité dynamique`  
+- `Barre des tâches` -> Taille des icone `S` Marge des icone `XS`, `Emplacement de la barre des tâches à l'écran` : `Haut`,  
+  et `Centrer les icones de programmes` (séparé du bouton de démarrage),  
+  cochez également `Plumpness (Aura)`, `Masquage dynamique` et `Timidité dynamique`  
 - `Icones de la barre des tâches` -> Dans `activer ou descativer des icones systeme`, activer tout sauf la loupe, clavier tactile et le stylet; et mettre `XL` pour la marge des icones  
 - `Explorateur` -> tout activer sauf `Panneau de détails dans la zone inférieure` et `Appliquer la couleur d'accentuation système sur tous les éléments`, choisir `barre de commande de windows 7`.  
 
 Dans le dossier `Atlas` aller dans `4. Interface Tweaks/Context Menus/Take Ownership` et lancez `Add Take Ownership to Context Menu.reg`.
 
+Aller dans les options de Windows, allez dans `Personnalisation/Barre des tâches` dans `Comportements de la barre des tâches` décochez `Afficher ma barre des tâche sur tous les affichages`.
 ### 10. Dernier réglages
 
 déplacer ear trumpet aussi
