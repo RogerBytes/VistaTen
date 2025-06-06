@@ -324,9 +324,6 @@ Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du so
 
 ### 10. Derniers réglages du menu OpenShell
 
-
-
-
 ENSUITE installer StartIsBack avec la commande
 
 ```powershell
@@ -334,10 +331,8 @@ winget install StartIsBack.StartAllBack --scope machine
 ```
 
 
-Les options de StartAllBlack s'ouvrent (sinon les ouvrir depuis
-C:\Program Files\StartAllBack et StartAllBackCfg.exe )
-
-allez dans l'onglet "Démarrer" et décochez (tout en haut la 1ere options) "Utiliser le menu démarrer classique amélioré"
+Les options de StartAllBlack s'ouvrent (sinon les ouvrir depuis `C:\Program Files\StartAllBack` et `StartAllBackCfg.exe`).  
+Allez dans l'onglet `Démarrer` et décochez (tout en haut la 1ere options) `Utiliser le menu démarrer classique amélioré`.
 
 Faites les réglages de barre, à ajouter dans les modif dureadme VERFIER CE QUI SUIT ----> -> ->
 Dans startallback  
