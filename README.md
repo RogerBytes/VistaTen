@@ -273,20 +273,17 @@ Allez dans `General>Confirm` et décochez le dernier de la liste (dans "miscella
 
 Cliquez sur `Save settings` et redémmarez.
 
-Après reboot faire une màj avec
+Après reboot, ré-ouvrez cmder faire une màj avec :
 
 ```powershell
 clink update
 ```
 
-Win+Alt+P et aller dans "General/Confirm"
-et décochez en bas `Show'...brought ConEmu OnTop. Revert ?` confirmation box.
+### 6. Runtimes
 
-Ensuite
-dans "General" aller à "Choose your startup task" et mettez
-{PowerShell::PowerShell as Admin}
+Dans le dossier `Runtimes`, lancer `install_all.bat` en administrateur.
 
-### 6. Icônes et souris
+### 7. Icônes et souris
 
 Allez dans
 `C:\Program Files\Outils\icones\Souris theme la capitaine`
@@ -307,21 +304,10 @@ Choisissez "7TSP Kora"
 Ensuite cliquez sur "Démarrage" en bas à droite.
 L'ordi redémmarre avec les nouvelles icones.
 
-### 7. Menu démarrer
-
-Et faites un backup de menu démarrer start menu
-
-`C:\ProgramData\Microsoft\Windows\Start Menu`
-
-`%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu`
-dans
-`C:\Program Files\Outils\Backup Menu demarrer`
-
-Ensuite pouvez nettoyer la liste des applications sans craintes dans les deux dossiers.
 
 ### 8. Fix pour regroupement auto de l'explorateur de fichiers
 
-Téléchez ce [logiciel](https://lesferch.github.io/WinSetView/
+Téléchargez ce [logiciel](https://lesferch.github.io/WinSetView/
 
 Lancer "WinSetView-Setup.exe" et faire l'installation
 
