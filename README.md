@@ -287,22 +287,21 @@ Dans le dossier `Runtimes`, lancer `install_all.bat` en administrateur.
 ### 7. Icônes et souris
 
 Allez dans
-`C:\Program Files\Outils\icones\Souris theme la capitaine`
-'Clic droit' sur "install.inf" et "Installer"
-Ensuite clic droit sur le bureau et choisissez "personnaliser", puis dans "Thèmes" et
-cliquez sur "Curseur de la souris"
-Pointez le fichier "install.inf" se trouvant dans le dossier "souris"
-Dans l'onglet "Pointeurs" choisissez dans "Modèles" le thème "Capitaine Cursors"
-Dans l'onglet "Options du pointeur" décochez "Améliorer la précision du pointeur"
-Profitez en pour régler la vitesse de votre souris si besoin (800 dps est bien en passant
-si vous avez un logiciel tier)
-Cliquez sur "Appliquer" et "OK"
+`C:\Program Files\Outils\icones\Souris theme la capitaine`  
+`Clic droit` sur `install.inf` et `Installer`  
+Ensuite `clic droit` sur le bureau et choisissez `personnaliser`, puis dans `Thèmes` et  
+cliquez sur `Curseur de la souris`  
+Pointez le fichier `install.inf` se trouvant dans le dossier `souris`  
+Dans l'onglet `Pointeurs` choisissez dans `Modèles` le thème `Capitaine Cursors`  
+Dans l'onglet `Options du pointeur` décochez `Améliorer la précision du pointeur`  
+Profitez en pour régler la vitesse de votre souris si besoin (800~1000 dps est bien en passant si vous avez un logiciel tier)  
+Cliquez sur `Appliquer` et `OK`.
 
-`C:\Program Files\Outils\icones\7tsp GUI v0.6(2019).exe`
-Cliquez sur "ajouter un pack" et dans
-C:\Program Files\Outils\icones
-Choisissez "7TSP Kora"
-Ensuite cliquez sur "Démarrage" en bas à droite.
+`C:\Program Files\Outils\icones\7tsp GUI v0.6(2019).exe`  
+Cliquez sur `ajouter un pack` et dans  
+`C:\Program Files\Outils\icones`  
+Choisissez `7TSP Kora`  
+Ensuite cliquez sur `Démarrage` en bas à droite.  
 L'ordi redémmarre avec les nouvelles icones.
 
 
