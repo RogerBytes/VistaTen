@@ -283,7 +283,7 @@ clink update
 
 Cliquez [ici](https://github.com/RogerBytes/VistaTen/releases/download/v0.1.0/Runtimes.zip) pour télécharger l'archive et décompressez-la.  
 Dans le dossier `Runtimes`, lancer `install_all.bat` en administrateur.
-Il faut aussi télécharger et installer [.NET Framework 3.5 (inclut .NET 2.0 et 3.0)](https://www.microsoft.com/fr-fr/download/details.aspx?id=21), vous pouvez passez par le lien `Package.NET Framework 3.5 complet`, un peu en dessous.
+Il faut aussi télécharger et installer [.NET Framework 3.5 (inclut .NET 2.0 et 3.0)](https://www.microsoft.com/fr-fr/download/details.aspx?id=21), vous pouvez aussi le télécharger complet via le lien `Package.NET Framework 3.5 complet` qui apparait quand vous cliquez sur le bouton `Télecharger`, un peu en dessous.
 
 ### 7. Icônes et souris
 
@@ -308,16 +308,12 @@ L'ordi redémmarre avec les nouvelles icones, soyez patient durant la mise à jo
 
 ### 8. Fix pour regroupement auto de l'explorateur de fichiers
 
-Téléchargez ce [logiciel](https://lesferch.github.io/WinSetView/)
-
-Lancer "WinSetView-Setup.exe" et faire l'installation
-
-Lance-le.
-
-Il suffit de regarder la 1er partie "Global"
-Le mettre sur "Détails", le par groupe est sur (Aucun), il suffit de cliquer sur le bouton "Soumettre", ça va régler la vue pour l'explorateur
-
-Ca évite, dans l'explorateur, de faire à chaque dossier : 'clic droit'/Regrouper par/Aucun
+Téléchargez ce [logiciel](https://lesferch.github.io/WinSetView/)  
+Lancer `WinSetView-Setup.exe` et faire l'installation.  
+Lance-le.  
+Il suffit de regarder la 1er partie `Global`  
+Le mettre sur `Détails`, le `par groupe` est sur `(Aucun)`, il suffit de cliquer sur le bouton `Soumettre`, ça va régler la vue pour l'explorateur.  
+Ca évite, dans l'explorateur, de faire à chaque dossier : `'clic droit'/Regrouper par/Aucun`.
 
 
 ### 9. Plugin son
