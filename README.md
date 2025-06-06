@@ -231,6 +231,17 @@ winget export "C:\Program Files\Outils\winget.json"
 winget search | sort
 ```
 
+#### Open Shell
+
+Ouvrir open shell (il suffit de cliquer sur le menu de windows pour qu'il apparaisse), aller dans ses paramètres, activer `show all settings` et aller dans l'onglet `Main Menu`, dans la partie (la première) `All Programs style` cocher `Open Automatically`
+
+Puis ok, fermer, allez dans
+`C:\Program Files\Open-Shell\`
+
+et supprimer 
+ClassicExplorer64.dll
+ClassicExplorer32.dll
+
 Et lancez imageGlass depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
 
 ### 4. Lecteur PDF
@@ -333,16 +344,9 @@ déplacer ear trumpet aussi
 Dans la barre du haut allez dans le sous menu masqué et remplacer l'icone du son par celle de ear trumpet
 
 
-### 10. Réglage du menu OpenShell
+### 10. Derniers réglages du menu OpenShell
 
-Ouvrir open shell, aller dans ses paramètres, activer "show all settings" et aller dans l'onglet "Main Menu", dans la partie (la première) "All Programs style" cocher "Open Automatically"
 
-Puis ok, fermer, allez dans
-C:\Program Files\Open-Shell\
-
-et supprimer 
-ClassicExplorer64.dll
-ClassicExplorer32.dll
 
 
 ENSUITE installer StartIsBack avec la commande
