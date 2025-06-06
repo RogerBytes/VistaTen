@@ -66,13 +66,6 @@ Juste après la dernière commande, il va relancer ce coup-ci vous pourrez passe
 
 Si ça marche pas, recommencez en coupant internet manuellement.
 
-Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A`, tapez ensuite :
-
-```batch
-irm https://get.activated.win | iex
-```
-
-
 ### Drivers
 
 Attention à noter les étapes en notant quel matériel et quel driver vous installez, très utile en cas de soucis de driver
@@ -82,7 +75,19 @@ Cliquez pour télécharger `Drivers_3.0.4.exe`
 `Lancez Mes_Drivers_3.0.4.exe` et faites les installations de drivers
 Installer et installer tous les drivers.
 
+Faites les maj de windows update et de Microsoft Store
+
 ---
+
+
+Ensuite, il faut mettre powershell comme terminal par défaut, `Win + X` puis `A`, tapez ensuite :
+
+```batch
+irm https://get.activated.win | iex
+```
+
+
+
 
 Choisir l'option 1
 
