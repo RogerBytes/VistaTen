@@ -50,8 +50,12 @@ Une installation fraîche de Windows 11 (si vous voulez un dual boot avec un OS 
 https://docs.atlasos.net/getting-started/installation/#1-download-an-iso
 Choisir "Download Windows 11 24h2" et choisir la langue puis cliquez sur "submit"
 
-POUR MACHINE VIRTUELLE VIRTUYALBOX
+POUR MACHINE VIRTUELLE VIRTUALBOX
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+<summary>Afficher/Masquer</summary>
 Penser à cocher "skip unatendeted"
+</details>
+
 
 une fois arrivé à l'écran des choix (là où ils demandent de se connecter à son compte)
 Lors de l'installation de windows, il faut bypass la connexion en ligne, pour ouvrir un batch shell faites `SHIFT + F10`, puis faites la commande suivante :
@@ -92,7 +96,9 @@ irm https://get.activated.win | iex
 Choisir l'option 1
 
 
-POUR MACHINE VIRTUELLE VIRTUYALVBOX
+POUR MACHINE VIRTUELLE VIRTUALBOX
+<details style="background-color: #222222; border: 1px solid #ccc; border-radius: 4px;">
+<summary>Afficher/Masquer</summary>
 Une fois installer, aller sur "Aide A propos de virtualbox" pour voir la version., moi virtualbox 7.0.16
 https://download.virtualbox.org/virtualbox/7.0.10/VBoxGuestAdditions_7.0.10.iso
 Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "VBoxGuestAdditions_7.0.10.iso"
@@ -100,7 +106,8 @@ Le monter via "Prefiphérique/lecteurs optiques/choose a disk vile" et pointer "
 Faire l'installation, reboot, et on peut ejecter le cd après
 
 Dans virtualbox, dans configuration/Général/avancé, activer bidirectionnel pour "presse papier partagé et pour "glisser dépooser"
-FIN VIRTUAL BOX MANPIE
+</details>
+
 
 Si besoin allez dans `2` pour installer microsoft office
 
