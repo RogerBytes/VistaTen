@@ -242,7 +242,7 @@ et supprimer :
 - `ClassicExplorer64.dll`
 - `ClassicExplorer32.dll`
 
-Et lancez `XnView MP` depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
+Et lancez `XnView MP` depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut si demandé.
 
 ### 4. Lecteur PDF
 
