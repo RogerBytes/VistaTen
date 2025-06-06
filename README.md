@@ -238,9 +238,9 @@ Ouvrir open shell (il suffit de cliquer sur le menu de windows pour qu'il appara
 Puis ok, fermer, allez dans
 `C:\Program Files\Open-Shell\`
 
-et supprimer 
-ClassicExplorer64.dll
-ClassicExplorer32.dll
+et supprimer : 
+- `ClassicExplorer64.dll`
+- `ClassicExplorer32.dll`
 
 Et lancez imageGlass depuis le menu et faite les confirmations du premier démarrage, mettez le par défaut quand demandé.
 
