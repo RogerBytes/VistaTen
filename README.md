@@ -307,7 +307,7 @@ L'ordi redémmarre avec les nouvelles icones.
 
 ### 8. Fix pour regroupement auto de l'explorateur de fichiers
 
-Téléchargez ce [logiciel](https://lesferch.github.io/WinSetView/
+Téléchargez ce [logiciel](https://lesferch.github.io/WinSetView/)
 
 Lancer "WinSetView-Setup.exe" et faire l'installation
 
